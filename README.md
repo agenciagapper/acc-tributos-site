@@ -41,6 +41,10 @@ Mudou CSS ou JS? Suba o número de versão (`site.css?v=`, `site.js?v=`, `forms.
 - Para mandar os dados a um CRM ou webhook, defina `window.ACC_FORM_ENDPOINT` antes de carregar `assets/js/forms.js`.
 - Eventos no `dataLayer`: `generate_lead` (campo `canal`: `whatsapp` ou `formulario`), `whatsapp_modal_open`, `curriculo_enviado`, `whatsapp_click`, `phone_click`.
 
+## Prévia no GitHub Pages
+
+A cada push na `main`, o workflow `.github/workflows/pages.yml` roda `build.py`, `check_seo.py` e `deploy_pages.py`, e publica a prévia em **https://agenciagapper.github.io/acc-tributos-site/**. A prévia ajusta os caminhos para a subpasta, sai com `noindex` e `robots.txt` bloqueando tudo, e não inclui `api/`, `content/`, `_material/` nem os documentos internos. Os formulários levam às páginas de obrigado, mas não gravam dados (o Pages não roda PHP).
+
 ## Publicação
 
 Ver a seção 5 de `arquitetura-seo.md`. Resumo: configurar e-mails do `api/form.php`, `ErrorDocument 404 /404.html`, redirecionamentos 301 do site antigo, GA4/Ads/Pixel, atualizar o Google Business Profile com o endereço e telefones do site, enviar o sitemap no Search Console.

@@ -1,0 +1,45 @@
+# Publica a prévia do site no GitHub Pages a cada push na main.
+# A prévia sai com noindex e robots.txt bloqueando tudo (não é o site oficial).
+name: Prévia no GitHub Pages
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Gerar páginas
+        run: python build.py
+      - name: Conferir SEO e links
+        run: python check_seo.py
+      - name: Montar a prévia com o caminho do Pages
+        run: python deploy_pages.py "/${{ github.event.repository.name }}"
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4
