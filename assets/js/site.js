@@ -6,6 +6,7 @@
   var header=d.getElementById('header'), toggle=d.querySelector('.menu-toggle');
   toggle&&toggle.addEventListener('click',function(){
     var open=header.classList.toggle('open');
+    root.classList.toggle('menu-open',open);
     toggle.setAttribute('aria-expanded',open);
     toggle.setAttribute('aria-label',open?'Fechar menu':'Abrir menu');
   });

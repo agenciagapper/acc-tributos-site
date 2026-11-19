@@ -989,3 +989,118 @@ a.qs-emp:hover{border-color:var(--brand);transform:translateY(-3px)}
 .form .btn .lbl{pointer-events:none}
 @media (max-width:980px){.tc{grid-template-columns:1fr}}
 @media (max-width:560px){.tc__row{grid-template-columns:1fr}}
+
+/* =========================================================
+   REVISÃO MOBILE (UX, front-end e CRO)
+   ========================================================= */
+
+/* barra fixa de contato: substitui o botão flutuante no celular */
+.mbar{display:none}
+.wa-float{display:none!important}
+.link{min-height:44px}
+.crumbs a{display:inline-block;padding:.6rem 0}
+.pinlabel--left{transform:translate(calc(-100% - 14px),-4px)}
+.pinlabel--left:hover{transform:translate(calc(-100% - 14px),-6px)}
+.swipe-hint{display:none}
+.prose > div{min-width:0}
+.post-body table{display:block;max-width:100%;overflow-x:auto;-webkit-overflow-scrolling:touch}
+
+@media (max-width:980px){
+  .prose{grid-template-columns:minmax(0,1fr)}
+  html.menu-open{overflow:hidden}
+}
+
+@media (max-width:860px){
+  body{padding-bottom:76px}
+  .mbar{display:grid;grid-template-columns:1fr 1.6fr;gap:8px;position:fixed;left:0;right:0;bottom:0;z-index:45;padding:10px 12px calc(10px + env(safe-area-inset-bottom));background:rgba(255,255,255,.96);backdrop-filter:blur(8px);border-top:1px solid var(--line);box-shadow:0 -10px 30px -18px rgba(11,18,48,.35)}
+  .mbar a{display:flex;align-items:center;justify-content:center;gap:.5rem;min-height:50px;border-radius:var(--r-pill);font:600 var(--t-md)/1 var(--f-body);text-decoration:none}
+  .mbar__tel{border:1.5px solid var(--ink);color:var(--ink)}
+  .mbar__wa{background:#1FA855;color:#fff}
+  .mbar__wa:active{background:#178C46}
+  .header.open ~ .mbar{display:none}
+
+  /* topo da página */
+  .topbar .wrap{justify-content:center;padding:.45rem 0}
+  .topbar .wrap > span:first-child{display:none}
+  .hero{padding-top:1.25rem;padding-bottom:var(--s-4)}
+  .hero__kicker{margin-bottom:var(--s-2)}
+  .hero__lead{font-size:1.0625rem;margin-top:var(--s-2);line-height:1.55}
+  .hero__ctas{margin-top:var(--s-3)}
+  .hero__proof{margin-top:var(--s-3);padding-top:var(--s-2)}
+  .stage{margin-top:var(--s-2)}
+  .badge{display:none}
+
+  /* "O que você precisa hoje?" em grade de 2 */
+  .triage{padding-bottom:var(--s-4)}
+  .triage__box{gap:var(--s-2)}
+  .chips{display:grid;grid-template-columns:1fr 1fr;gap:8px}
+  .chip{justify-content:space-between;padding:.6rem .8rem;font-size:var(--t-xs);line-height:1.25;text-align:left}
+
+  /* seções mais curtas */
+  .section{padding:var(--s-5) 0}
+  .section__head{gap:var(--s-2);margin-bottom:var(--s-4)}
+  .section__head p{font-size:var(--t-md)}
+  .ledger a{padding:1rem 0}
+  .ledger h3{font-size:1.2rem}
+  .ledger p{display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+
+  /* canais */
+  .ch{padding:var(--s-3)}
+  .ch .big,.ch .big small{white-space:normal}
+
+  /* passos: ícone ao lado do texto */
+  .step{grid-template-columns:64px 1fr;grid-template-areas:"ic k" "ic h" "ic p";column-gap:1rem;align-items:start}
+  .step__icon{width:64px;height:64px;margin:0;border-radius:var(--r-2)}
+  .step__icon img{width:44px}
+  .step .k{align-self:end}
+  .step h3{margin-top:.15rem}
+
+  /* avaliações */
+  .gscore{padding:var(--s-2) var(--s-3)}
+  .gscore__hl{display:none}
+  .gscore__num strong{font-size:2.4rem}
+  .gcard{min-height:0}
+  .swipe-hint{display:flex;align-items:center;gap:.4rem;font-size:var(--t-xs);color:var(--ink-2);margin-top:.6rem}
+
+  /* regiões: cartões compactos em grade de 2 */
+  .regions{grid-template-columns:1fr 1fr;gap:10px}
+  .region{min-height:0;padding:1rem;gap:.35rem;border-radius:var(--r-2)}
+  .region p,.region .pin{display:none}
+  .region h3{font-size:1rem;line-height:1.25}
+  .region .km{font-size:.68rem}
+  .region .link{font-size:var(--t-xs);min-height:32px}
+  .map{margin-top:var(--s-3)}
+  .map__info{padding:var(--s-3)}
+  .map iframe,.map .map__ph{min-height:200px}
+
+  /* rodapé com toques confortáveis */
+  .footer ul{gap:0}
+  .footer li a{display:inline-block;padding:.45rem 0}
+  .footer__grid{gap:var(--s-3)}
+  .group img{height:28px}
+
+  /* páginas internas */
+  .phero{padding-bottom:var(--s-4)}
+  .phero__hl{gap:.45rem}
+  .prose-wrap{padding-top:var(--s-3)}
+  .prose__block + .prose__block{margin-top:var(--s-4)}
+  .phero__card{max-width:none}
+  .phero__photo{aspect-ratio:16/10}
+  .phero__photo img{width:70%}
+}
+
+@media (max-width:560px){
+  .stage{max-width:380px}
+  .final__box{padding:1.25rem}
+  .form{padding:1.25rem}
+}
+@media (max-width:370px){
+  .chips{grid-template-columns:1fr}
+  .regions{grid-template-columns:1fr}
+  .mbar{grid-template-columns:1fr 1.4fr}
+  .mbar a{font-size:var(--t-sm)}
+}
+
+@media (max-width:860px){.topbar a{display:inline-block;padding:.55rem .25rem}.topbar .wrap{padding:0}}
+
+.post-body,.prose__block,.post-fontes{overflow-wrap:anywhere}

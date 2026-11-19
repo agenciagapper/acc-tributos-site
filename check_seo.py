@@ -2,7 +2,7 @@
 import glob, json, os, re, collections
 
 ROOT = os.path.dirname(os.path.abspath(__file__))
-files = [os.path.join(ROOT, "index.html")] + [f for f in glob.glob(os.path.join(ROOT, "**", "index.html"), recursive=True) if os.path.dirname(f) != ROOT]
+files = [os.path.join(ROOT, "index.html")] + [f for f in glob.glob(os.path.join(ROOT, "**", "index.html"), recursive=True) if os.path.dirname(f) != ROOT and not os.path.relpath(f, ROOT).startswith(("_site", "_material", ".git"))]
 titles, descs, problems = collections.Counter(), collections.Counter(), []
 def exists(href):
     path = href.split("#")[0].split("?")[0]
