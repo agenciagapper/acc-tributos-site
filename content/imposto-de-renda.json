@@ -1,0 +1,102 @@
+{
+  "slug": "/servicos/imposto-de-renda/",
+  "type": "servico",
+  "nav": "Imposto de Renda",
+  "title": "Declaração de Imposto de Renda em Fortaleza | ACC Tributos",
+  "description": "Declaração de Imposto de Renda em Fortaleza para sócios, autônomos e profissionais liberais. Malha fina e declarações atrasadas. Fale no WhatsApp.",
+  "keyword": "declaração de Imposto de Renda em Fortaleza",
+  "kicker": "Serviço",
+  "h1": "Declaração de Imposto de Renda em Fortaleza para pessoa física, sem erro e sem malha fina",
+  "lead": "Se você precisa fazer a declaração de Imposto de Renda em Fortaleza, a ACC Tributos prepara tudo com revisão de contador. Atendemos sócios de empresas, autônomos, profissionais liberais e quem está com declaração em malha fina ou atrasada. Pode ser presencial ou 100% online.",
+  "wa_text": "Olá! Preciso fazer minha declaração de Imposto de Renda de pessoa física. Pode me ajudar?",
+  "highlights": [
+    "Declaração revisada por contador",
+    "Sócios, autônomos e profissionais liberais",
+    "Correção de malha fina",
+    "Declarações atrasadas regularizadas"
+  ],
+  "sections": [
+    {
+      "h2": "Declaração de Imposto de Renda pessoa física com contador",
+      "paragraphs": [
+        "Preencher o programa da Receita não é difícil, mas errar é fácil. Um rendimento esquecido, uma despesa lançada no lugar errado ou uma divergência com informações que a Receita já recebeu bastam para cair na malha fina. A ACC prepara a declaração conferindo cada informação antes do envio.",
+        "O prazo de entrega é definido pela Receita Federal a cada ano. Quanto antes você nos procura, mais tempo temos para reunir documentos e revisar com calma."
+      ]
+    },
+    {
+      "h2": "Para quem a ACC faz o Imposto de Renda",
+      "paragraphs": [
+        "Algumas situações pedem mais cuidado do que um simples assalariado. Nelas, a ajuda de um contador evita erros e muitas vezes ajuda a declarar de forma mais vantajosa dentro da lei."
+      ],
+      "bullets": [
+        "Sócios e administradores de empresas, com lucros e pró-labore",
+        "Autônomos e prestadores de serviço com rendimentos variados",
+        "Profissionais liberais, como médicos, advogados, engenheiros e dentistas",
+        "Quem tem aluguéis, investimentos, bens e dívidas a declarar",
+        "Pessoas que venderam imóvel, veículo ou outros bens"
+      ]
+    },
+    {
+      "h2": "Sócios de empresa: separe o que é da pessoa e o que é da empresa",
+      "paragraphs": [
+        "Quem tem empresa precisa declarar corretamente a participação societária, os lucros recebidos e o pró-labore. Se esses dados não batem com o que a empresa informou ao Fisco, a chance de inconsistência cresce.",
+        "Como a ACC também faz a contabilidade empresarial, conseguimos conferir a declaração da pessoa física com os números da empresa. Quem ainda não é nosso cliente de contabilidade também pode contratar só o Imposto de Renda."
+      ]
+    },
+    {
+      "h2": "Malha fina e declaração atrasada: dá para resolver",
+      "paragraphs": [
+        "Caiu na malha fina? Isso significa que a Receita encontrou divergência entre o que você declarou e as informações que ela recebeu de terceiros. Em muitos casos é possível analisar a pendência, reunir os comprovantes e corrigir a situação.",
+        "O mesmo vale para quem deixou de entregar a declaração em algum ano. Levantamos a situação, regularizamos o que for necessário e orientamos sobre as consequências, sem julgamento. Quanto mais cedo a regularização começa, menores tendem a ser os problemas acumulados."
+      ]
+    },
+    {
+      "h2": "Atendimento em Fortaleza e região, presencial ou online",
+      "paragraphs": [
+        "Nosso escritório fica em Maracanaú, e atendemos Fortaleza e região. Você pode vir até nós ou fazer tudo pelo WhatsApp, enviando os documentos por foto ou arquivo e tirando dúvidas por videochamada.",
+        "O valor depende da complexidade da declaração. Depois de ver sua situação, enviamos a proposta pelo WhatsApp."
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "title": "Você envia os documentos",
+      "text": "Informes de rendimentos, comprovantes de despesas dedutíveis, dados de bens e dívidas. Nós indicamos exatamente o que precisa de acordo com seu caso."
+    },
+    {
+      "title": "O contador monta e revisa",
+      "text": "Preparamos a declaração, conferimos com as informações disponíveis para a Receita e apresentamos o resultado para sua aprovação."
+    },
+    {
+      "title": "Envio e acompanhamento",
+      "text": "Transmitimos a declaração dentro do prazo, entregamos o recibo e acompanhamos se houver pendência depois."
+    }
+  ],
+  "faq": [
+    {
+      "q": "Quem é obrigado a declarar o Imposto de Renda?",
+      "a": "As regras de obrigatoriedade são definidas pela Receita Federal e podem mudar a cada ano, como limites de rendimento e situação patrimonial. Na conversa inicial, verificamos se você se enquadra."
+    },
+    {
+      "q": "Qual é o prazo para entregar a declaração?",
+      "a": "O prazo é definido pela Receita Federal a cada ano. Procure-nos com antecedência para que haja tempo de reunir os documentos e revisar tudo com calma."
+    },
+    {
+      "q": "Caí na malha fina. O que eu faço?",
+      "a": "Não ignore a pendência. Nós analisamos o motivo da retenção, reunimos os comprovantes necessários e orientamos a correção, que pode ser feita por meio de declaração retificadora ou da apresentação de documentos."
+    },
+    {
+      "q": "Esqueci de declarar em anos anteriores. Tem solução?",
+      "a": "Sim. É possível regularizar declarações em atraso. Fazemos o levantamento dos anos pendentes, entregamos o que falta e explicamos as consequências de cada caso."
+    },
+    {
+      "q": "Sócio de empresa precisa fazer algo diferente na declaração?",
+      "a": "Sim. É preciso declarar a participação na empresa e os lucros e pró-labore recebidos de forma coerente com a contabilidade da empresa. Esse cruzamento é um dos pontos que a ACC confere."
+    }
+  ],
+  "related": [
+    "/servicos/contabilidade-empresarial/",
+    "/servicos/auditoria-fiscal-digital/",
+    "/contabilidade-em-fortaleza/"
+  ]
+}

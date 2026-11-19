@@ -1,0 +1,14 @@
+# dados recebidos pelos formulários (contatos e currículos): nunca versionar
+api/data/
+
+# Python
+__pycache__/
+*.pyc
+
+# configuração local do editor/assistente
+.claude/
+
+# sistema
+.DS_Store
+Thumbs.db
+desktop.ini

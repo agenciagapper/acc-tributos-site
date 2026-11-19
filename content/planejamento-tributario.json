@@ -1,0 +1,103 @@
+{
+  "slug": "/servicos/planejamento-tributario/",
+  "type": "servico",
+  "nav": "Planejamento tributário",
+  "title": "Planejamento Tributário em Fortaleza | ACC Tributos",
+  "description": "Planejamento tributário em Fortaleza: compare Simples Nacional, Lucro Presumido e Lucro Real e pague menos imposto dentro da lei. Fale conosco.",
+  "keyword": "planejamento tributário em Fortaleza",
+  "kicker": "Serviço",
+  "h1": "Planejamento tributário em Fortaleza para pagar menos imposto dentro da lei",
+  "lead": "O planejamento tributário em Fortaleza da ACC Tributos compara Simples Nacional, Lucro Presumido e Lucro Real para o seu caso e mostra qual regime pesa menos no seu bolso. Tudo dentro da lei, com base nos números reais da empresa. O trabalho é conduzido por contador com MBA em Direito Tributário.",
+  "wa_text": "Olá! Quero um planejamento tributário para minha empresa em Fortaleza. Pode me explicar como funciona?",
+  "highlights": [
+    "Comparação entre os três regimes tributários",
+    "Baseado nos números reais da sua empresa",
+    "Redução de imposto dentro da lei",
+    "Conduzido por contador com MBA em Direito Tributário"
+  ],
+  "sections": [
+    {
+      "h2": "O que é planejamento tributário e para quem serve",
+      "paragraphs": [
+        "Planejamento tributário é o estudo de como sua empresa pode pagar o imposto devido da forma mais leve possível, usando as opções que a própria lei oferece. Não tem nada de atalho ou de sonegação. É escolher o caminho legal que mais faz sentido para o seu negócio.",
+        "Serve para quem está abrindo empresa e precisa escolher o regime, e também para quem já opera e desconfia que paga mais do que deveria. Muitas empresas ficam anos no mesmo enquadramento só porque ninguém voltou a fazer a conta."
+      ]
+    },
+    {
+      "h2": "Simples Nacional, Lucro Presumido ou Lucro Real",
+      "paragraphs": [
+        "Cada regime calcula o imposto de um jeito, e o melhor depende do perfil da empresa. Um regime que funciona bem para uma prestadora de serviços pode ser caro para uma empresa de comércio, e o contrário também acontece.",
+        "Na análise, a ACC considera fatores como estes:"
+      ],
+      "bullets": [
+        "Atividade da empresa e forma de tributação aplicável",
+        "Faturamento, dentro dos limites vigentes de cada regime",
+        "Peso da folha de pagamento e dos custos",
+        "Margem de lucro real do negócio",
+        "Possibilidade de aproveitar créditos de impostos"
+      ]
+    },
+    {
+      "h2": "Como fazemos o planejamento tributário da sua empresa",
+      "paragraphs": [
+        "Não trabalhamos com resposta pronta. Levantamos os dados da empresa, simulamos o imposto em cada regime possível e apresentamos a comparação de forma clara, para você decidir com segurança.",
+        "Se a mudança de regime compensar, explicamos os prazos e os passos para fazer a migração corretamente. Se o regime atual já for o melhor, também dizemos, e você fica tranquilo de que não está pagando à toa."
+      ]
+    },
+    {
+      "h2": "Planejamento tributário com acompanhamento contínuo",
+      "paragraphs": [
+        "A conta muda quando a empresa cresce, contrata gente ou altera a atividade. Por isso o planejamento não deve ser feito uma única vez e esquecido. Revisar o enquadramento periodicamente evita surpresas, como estourar o limite de um regime sem ter se preparado.",
+        "Quem é cliente de contabilidade da ACC conta com esse olhar no dia a dia. Seu contador acompanha os números do mês e avisa quando vale rever a estratégia."
+      ]
+    },
+    {
+      "h2": "Quem conduz o trabalho",
+      "paragraphs": [
+        "O planejamento é conduzido por Joel Mendonça, contador (CRC/CE 25911), com MBA em Direito Tributário e 12 anos como assessor e consultor. Ele também é professor de gestão financeira e empresarial. Isso significa que a análise une visão contábil, jurídica e de gestão.",
+        "Atendemos empresas de Fortaleza e região, presencialmente ou 100% online."
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "title": "Levantamento dos dados",
+      "text": "Você nos passa faturamento, atividade, folha e principais custos da empresa. Se já houver contabilidade conosco, usamos os números que temos."
+    },
+    {
+      "title": "Simulação nos regimes",
+      "text": "Calculamos o imposto em cada regime possível e comparamos os resultados, mostrando o que pesa mais e o que pesa menos."
+    },
+    {
+      "title": "Decisão e execução",
+      "text": "Apresentamos a recomendação em linguagem simples. Se compensar mudar, cuidamos da migração e do acompanhamento."
+    }
+  ],
+  "faq": [
+    {
+      "q": "Planejamento tributário é legal?",
+      "a": "Sim. É a escolha, dentro da lei, da forma de tributação que gera menor carga para a empresa. Diferente de sonegação, que é crime, o planejamento usa as opções previstas na própria legislação."
+    },
+    {
+      "q": "Qual é o melhor regime: Simples, Lucro Presumido ou Lucro Real?",
+      "a": "Não existe um regime melhor para todos. Depende da atividade, do faturamento, da folha e da margem de lucro. Por isso a comparação é feita com os números da sua empresa."
+    },
+    {
+      "q": "Posso mudar de regime tributário a qualquer momento?",
+      "a": "Há regras e prazos para cada mudança, e eles variam conforme o regime. A ACC avalia o seu caso e informa o momento e a forma corretos de fazer a migração."
+    },
+    {
+      "q": "Preciso ser cliente da ACC para pedir um planejamento?",
+      "a": "Não. Você pode contratar o planejamento tributário isoladamente. Se depois quiser ter a contabilidade conosco, a transição é simples."
+    },
+    {
+      "q": "Quanto custa o planejamento tributário?",
+      "a": "O valor depende do porte da empresa, do regime atual e da complexidade da análise. Enviamos a proposta pelo WhatsApp, depois de entender seu caso."
+    }
+  ],
+  "related": [
+    "/servicos/contabilidade-empresarial/",
+    "/servicos/auditoria-fiscal-digital/",
+    "/contabilidade-em-fortaleza/"
+  ]
+}

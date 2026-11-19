@@ -1,0 +1,101 @@
+{
+  "slug": "/contato/",
+  "type": "institucional",
+  "nav": "Contato",
+  "title": "Contato ACC Tributos | Telefone, WhatsApp e Endereço",
+  "description": "Contato ACC Tributos: WhatsApp (85) 99825-0357, telefone (85) 3371-0502 e escritório em Maracanaú. Atendimento de segunda a sexta, das 8h às 18h.",
+  "keyword": "contato ACC Tributos",
+  "kicker": "Contato",
+  "h1": "Contato ACC Tributos: fale com um contador pelo WhatsApp",
+  "lead": "O contato ACC Tributos mais rápido é o WhatsApp (85) 99825-0357. Você também pode ligar para (85) 3371-0502 ou visitar nosso escritório em Maracanaú. O atendimento é de segunda a sexta, das 8h às 18h.",
+  "wa_text": "Olá! Gostaria de falar com a equipe da ACC Tributos.",
+  "highlights": [
+    "WhatsApp (85) 99825-0357",
+    "Telefone (85) 3371-0502",
+    "Segunda a sexta, das 8h às 18h",
+    "Atendimento presencial ou online"
+  ],
+  "sections": [
+    {
+      "h2": "Como falar com a ACC Tributos",
+      "paragraphs": [
+        "O WhatsApp é o canal principal. As mensagens são respondidas pelo time contábil, e não por robô, e você pode enviar dúvidas, documentos e pedidos de proposta no mesmo lugar.",
+        "Se preferir, ligue para (85) 3371-0502. Para assuntos que pedem conversa mais longa, marcamos uma videochamada ou uma reunião presencial.",
+        "Quando você escreve, o time contábil identifica o assunto e direciona para o contador certo. Se for uma dúvida simples, a resposta costuma vir na própria conversa. Se exigir análise, avisamos o prazo para retorno."
+      ],
+      "bullets": [
+        "WhatsApp: (85) 99825-0357",
+        "Telefone: (85) 3371-0502",
+        "Horário: segunda a sexta, das 8h às 18h"
+      ]
+    },
+    {
+      "h2": "Endereço do escritório em Maracanaú",
+      "paragraphs": [
+        "Edifício Business Place, Torre I, Sala 1103. Avenida Yolanda Pontes Vidal Queiroz, 57, Jereissati I, Maracanaú, CE, CEP 61900-410.",
+        "O prédio fica em Maracanaú, na Região Metropolitana de Fortaleza. Para chegar, use o endereço acima no aplicativo de mapas de sua preferência. Se tiver dúvida na hora de chegar, chame no WhatsApp e orientamos.",
+        "Recomendamos agendar o horário antes de ir, para que o contador responsável pela sua empresa esteja disponível.",
+        "Quem vem de Fortaleza chega pela região de Maracanaú, na Região Metropolitana. Se preferir, atendemos por videochamada e você economiza o deslocamento."
+      ]
+    },
+    {
+      "h2": "Atendimento presencial ou 100% online",
+      "paragraphs": [
+        "Você não precisa ir ao escritório para ser nosso cliente. Atendemos empresas de Fortaleza, Maracanaú, Eusébio, Aquiraz e região por WhatsApp, videochamada e plataforma online.",
+        "Quando for útil, combinamos uma visita agendada ou uma reunião no escritório. Escolha o formato que couber melhor na sua agenda."
+      ]
+    },
+    {
+      "h2": "O que enviar no primeiro contato",
+      "paragraphs": [
+        "Para agilizar a proposta, conte rapidamente o que você precisa: abrir empresa, trocar de contador, regularizar pendências ou entregar o Imposto de Renda. Se já tem CNPJ, informe o regime tributário, se souber, e o número aproximado de funcionários.",
+        "A mensalidade depende de regime, faturamento, funcionários e plano. Com essas informações, enviamos a proposta pelo WhatsApp."
+      ]
+    },
+    {
+      "h2": "Assuntos que você pode tratar com a gente",
+      "paragraphs": [
+        "O contato serve para quem ainda não é cliente e para quem já é. Quem está começando pode pedir orientação sobre abertura de empresa, regime tributário e custos. Quem já tem empresa pode tirar dúvidas de rotina, enviar documentos ou pedir ajuda com notificações.",
+        "Também atendemos pessoas físicas que precisam do Imposto de Renda, de cálculos ou de regularização de declarações atrasadas, além de pedidos de certificado digital e registro de marca pelas empresas do Grupo ACC."
+      ],
+      "bullets": [
+        "Abertura, alteração e baixa de empresa",
+        "Troca de contador",
+        "Dúvidas fiscais, trabalhistas e de folha",
+        "Imposto de Renda de pessoa física",
+        "Certificado digital e registro de marca"
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Qual é o WhatsApp da ACC Tributos?",
+      "a": "O WhatsApp é (85) 99825-0357. As mensagens são respondidas pelo time contábil, de segunda a sexta, das 8h às 18h."
+    },
+    {
+      "q": "Qual é o endereço do escritório?",
+      "a": "Edifício Business Place, Torre I, Sala 1103, Avenida Yolanda Pontes Vidal Queiroz, 57, Jereissati I, Maracanaú, CE, CEP 61900-410."
+    },
+    {
+      "q": "Posso ir ao escritório sem avisar?",
+      "a": "O ideal é agendar pelo WhatsApp, para que o contador esteja disponível quando você chegar."
+    },
+    {
+      "q": "Vocês atendem fora do horário comercial?",
+      "a": "O atendimento é de segunda a sexta, das 8h às 18h. Mensagens enviadas fora desse horário são respondidas no próximo dia útil."
+    },
+    {
+      "q": "Preciso ir ao escritório para contratar?",
+      "a": "Não. Todo o processo pode ser feito online, por WhatsApp, videochamada e plataforma."
+    },
+    {
+      "q": "Posso pedir uma proposta pelo WhatsApp?",
+      "a": "Pode. Conte o que você precisa e algumas informações da empresa, e enviamos a proposta pelo próprio WhatsApp."
+    }
+  ],
+  "related": [
+    "/quem-somos/",
+    "/trocar-de-contador/",
+    "/contabilidade-em-maracanau/"
+  ]
+}

@@ -1,0 +1,96 @@
+{
+  "slug": "/servicos/auditoria-fiscal-digital/",
+  "type": "servico",
+  "nav": "Auditoria fiscal digital",
+  "title": "Auditoria Fiscal em Fortaleza e Região | ACC Tributos",
+  "description": "Auditoria fiscal em Fortaleza: cruzamos o que o Fisco já sabe da sua empresa, apontamos riscos e créditos a recuperar. Fale com a ACC pelo WhatsApp.",
+  "keyword": "auditoria fiscal em Fortaleza",
+  "kicker": "Serviço",
+  "h1": "Auditoria fiscal em Fortaleza para achar riscos e créditos antes do Fisco",
+  "lead": "A auditoria fiscal em Fortaleza e região da ACC Tributos cruza as informações que a sua empresa declara com o que a Receita Federal e a Sefaz-CE já têm nos sistemas. O resultado é um retrato claro dos riscos de autuação e dos créditos que podem estar parados.",
+  "wa_text": "Olá! Quero saber como funciona a auditoria fiscal digital da ACC Tributos para a minha empresa.",
+  "highlights": [
+    "Cruzamento dos seus dados com os do Fisco",
+    "Riscos de notificação apontados antes",
+    "Identificação de créditos a recuperar",
+    "Relatório claro, sem juridiquês"
+  ],
+  "sections": [
+    {
+      "h2": "O que é a auditoria fiscal digital",
+      "paragraphs": [
+        "O Fisco trabalha com cruzamento eletrônico de dados. Notas fiscais, declarações, arquivos do SPED, informações de operadoras de cartão e movimentações financeiras são comparados automaticamente. Quando algo não bate, a empresa pode cair em malha ou receber uma notificação.",
+        "A auditoria fiscal digital faz esse mesmo caminho, só que antes e a seu favor. Nosso time examina os arquivos e declarações da empresa, compara com as bases públicas e com os documentos fiscais emitidos e recebidos, e aponta divergências enquanto ainda dá tempo de corrigir."
+      ]
+    },
+    {
+      "h2": "O que verificamos na sua empresa",
+      "paragraphs": [
+        "Cada auditoria é montada conforme a atividade e o regime tributário. De forma geral, a análise passa por:"
+      ],
+      "bullets": [
+        "Notas fiscais emitidas e recebidas em comparação com o que foi escriturado e declarado.",
+        "Consistência entre SPED, declarações e apurações de impostos.",
+        "Classificações fiscais e enquadramentos que possam estar gerando imposto a mais ou a menos.",
+        "Créditos tributários não aproveitados e recolhimentos feitos em duplicidade ou além do devido.",
+        "Pendências e inconsistências que costumam gerar notificação e multa."
+      ]
+    },
+    {
+      "h2": "Riscos e créditos: os dois lados da auditoria",
+      "paragraphs": [
+        "Muita gente associa auditoria a problema. Na prática, ela olha para os dois lados. De um lado, os riscos: declarações divergentes, notas sem escrituração, recolhimentos em atraso. Do outro, o dinheiro: créditos de impostos que a empresa tem direito de aproveitar e não aproveitou.",
+        "Quando encontramos um risco, explicamos a origem, o possível efeito e o que fazer para regularizar. Quando encontramos um crédito, orientamos o caminho legal para usá-lo, sempre dentro das regras vigentes. Nada de promessa de economia antes de olhar os seus números."
+      ]
+    },
+    {
+      "h2": "Quando vale a pena fazer a auditoria fiscal",
+      "paragraphs": [
+        "A auditoria faz sentido para quem recebeu notificação, caiu em malha, trocou de contador, cresceu rápido ou nunca revisou a escrituração dos últimos anos. Também ajuda empresas que vão mudar de regime tributário ou que querem chegar organizadas a uma negociação, financiamento ou venda.",
+        "Atendemos empresas de Fortaleza, Maracanaú, Eusébio, Aquiraz e de toda a região, presencialmente ou 100% online. Você envia os acessos e arquivos pelos canais combinados e acompanha tudo pelo WhatsApp.",
+        "Quem já é cliente da ACC Tributos conta com o mesmo contador dedicado, que conhece a empresa pelo nome e leva o resultado da auditoria para a rotina fiscal dos meses seguintes."
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "title": "Coleta dos dados",
+      "text": "Reunimos notas, arquivos fiscais, declarações e os acessos necessários. Se a empresa tem contador, pedimos a documentação ao escritório atual."
+    },
+    {
+      "title": "Cruzamento e análise",
+      "text": "Comparamos o que a empresa declarou com o que o Fisco já sabe e com os documentos fiscais, e listamos divergências, riscos e créditos."
+    },
+    {
+      "title": "Relatório e plano de ação",
+      "text": "Você recebe um relatório em linguagem simples, com prioridades e o passo a passo para regularizar ou recuperar o que for devido."
+    }
+  ],
+  "faq": [
+    {
+      "q": "O que é auditoria fiscal digital?",
+      "a": "É a revisão das informações fiscais da empresa por meio do cruzamento de arquivos, notas e declarações com as bases que o Fisco usa. O objetivo é encontrar divergências e créditos antes de uma notificação."
+    },
+    {
+      "q": "A auditoria serve para quem recebeu uma notificação da Receita ou da Sefaz?",
+      "a": "Sim. Ela ajuda a entender de onde veio a divergência e qual é a melhor forma de responder ou regularizar. Cada caso tem prazo próprio, então vale nos procurar logo que a notificação chegar."
+    },
+    {
+      "q": "A auditoria garante que vou recuperar impostos?",
+      "a": "Não prometemos resultado antes de analisar. Existem empresas com créditos a aproveitar e outras sem nenhum. O que garantimos é uma análise séria e um relatório claro sobre a sua situação real."
+    },
+    {
+      "q": "Preciso ser cliente da ACC para pedir a auditoria?",
+      "a": "Não. Podemos fazer a auditoria mesmo que a sua contabilidade seja feita em outro escritório. Se depois você quiser trocar de contador, nós cuidamos da transição."
+    },
+    {
+      "q": "Quanto custa a auditoria fiscal?",
+      "a": "O valor depende do porte da empresa, do regime tributário, do período analisado e do volume de documentos. Enviamos a proposta pelo WhatsApp depois de uma conversa inicial."
+    }
+  ],
+  "related": [
+    "/servicos/escrituracao-fiscal/",
+    "/servicos/planejamento-tributario/",
+    "/contabilidade-em-fortaleza/"
+  ]
+}

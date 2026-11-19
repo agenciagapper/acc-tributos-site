@@ -1,0 +1,92 @@
+{
+  "slug": "/servicos/certificado-digital/",
+  "type": "servico",
+  "nav": "Certificado digital",
+  "title": "Certificado Digital em Fortaleza e Região | ACC Tributos",
+  "description": "Certificado digital em Fortaleza: e-CNPJ e e-CPF emitidos com a Prime Certificação, do Grupo ACC. Fale com a ACC Tributos pelo WhatsApp e solicite o seu.",
+  "keyword": "certificado digital em Fortaleza",
+  "kicker": "Serviço",
+  "h1": "Certificado digital em Fortaleza: e-CNPJ e e-CPF com atendimento ágil",
+  "lead": "Precisa de certificado digital em Fortaleza e região? A ACC Tributos orienta você na escolha e na emissão do e-CNPJ e do e-CPF com a Prime Certificação, empresa do Grupo ACC. Você resolve com quem já cuida da contabilidade da sua empresa.",
+  "wa_text": "Olá! Quero emitir um certificado digital e-CNPJ ou e-CPF com a ACC Tributos e a Prime Certificação.",
+  "highlights": [
+    "e-CNPJ para empresas e e-CPF para pessoas",
+    "Emissão com a Prime Certificação, do Grupo ACC",
+    "Orientação na escolha entre A1 e A3",
+    "Atendimento com quem conhece sua empresa"
+  ],
+  "sections": [
+    {
+      "h2": "O que é certificado digital e para que serve",
+      "paragraphs": [
+        "O certificado digital é a identidade eletrônica de uma empresa ou de uma pessoa. Com ele, você assina documentos com validade jurídica, acessa serviços restritos de órgãos públicos e transmite declarações e obrigações sem precisar ir pessoalmente a um balcão.",
+        "Para quem tem empresa, ele é praticamente indispensável. Emissão de notas fiscais eletrônicas, envio do SPED, acesso ao portal da Receita Federal, eSocial e muitos serviços da Sefaz-CE e da prefeitura exigem o certificado do CNPJ."
+      ]
+    },
+    {
+      "h2": "e-CNPJ e e-CPF: qual você precisa",
+      "paragraphs": [
+        "O e-CNPJ identifica a empresa. É o certificado usado pela contabilidade para transmitir obrigações fiscais e trabalhistas, e pela própria empresa para emitir notas e assinar documentos.",
+        "O e-CPF identifica a pessoa física. Serve para acessar serviços do governo em nome próprio, assinar documentos eletronicamente e consultar informações junto à Receita Federal, entre outros usos.",
+        "Se você é sócio e também precisa cuidar das suas questões pessoais, pode ser útil ter os dois. Nosso time ajuda a definir o que faz sentido para o seu caso."
+      ]
+    },
+    {
+      "h2": "Tipos de certificado: A1 e A3",
+      "paragraphs": [
+        "Os certificados digitais mais comuns são o A1 e o A3. A diferença está na forma de armazenamento e uso: o A1 fica instalado no equipamento do usuário, e o A3 fica em um dispositivo físico separado.",
+        "Cada modelo tem vantagens conforme o uso. A escolha depende do sistema que você utiliza, de quantas pessoas precisam usar o certificado e da rotina da empresa. Explicamos as opções disponíveis e indicamos a mais adequada ao seu dia a dia, sem empurrar o que você não precisa."
+      ]
+    },
+    {
+      "h2": "Como é a emissão com a Prime Certificação",
+      "paragraphs": [
+        "A Prime Certificação faz parte do Grupo ACC, o mesmo grupo da ACC Tributos. Isso significa que o pedido do seu certificado passa por um time que conversa com a contabilidade e entende para que ele será usado.",
+        "A emissão exige a validação da identidade do titular, seguindo as regras da certificadora. Nosso time informa quais documentos levar e como será o atendimento. Atendemos Fortaleza, Maracanaú, Eusébio, Aquiraz e região.",
+        "Se o seu certificado estiver perto de vencer, avise com antecedência. Assim a renovação acontece sem interromper emissão de notas ou entrega de obrigações.",
+        "Se você está abrindo uma empresa com a gente, podemos tratar o certificado junto com a legalização, para que o acesso digital fique pronto quando a empresa precisar emitir a primeira nota."
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "title": "Escolha do certificado",
+      "text": "Você diz se precisa de e-CNPJ ou e-CPF e como pretende usar. Indicamos o tipo mais adequado ao seu caso."
+    },
+    {
+      "title": "Envio dos documentos",
+      "text": "Passamos a lista de documentos necessários e o pedido é aberto com a Prime Certificação."
+    },
+    {
+      "title": "Validação e emissão",
+      "text": "Depois da validação de identidade do titular, o certificado é emitido e orientamos como instalar e usar."
+    }
+  ],
+  "faq": [
+    {
+      "q": "Qual a diferença entre e-CNPJ e e-CPF?",
+      "a": "O e-CNPJ representa a empresa e é usado em notas fiscais, SPED, eSocial e serviços fiscais. O e-CPF representa a pessoa física e é usado em serviços do governo e assinaturas em nome próprio."
+    },
+    {
+      "q": "O que significa certificado A1 e A3?",
+      "a": "São dois modelos de certificado digital. No A1, o certificado fica instalado no equipamento do usuário. No A3, fica armazenado em um dispositivo físico separado. Ajudamos a escolher conforme o seu uso."
+    },
+    {
+      "q": "Preciso ir pessoalmente para emitir o certificado?",
+      "a": "A emissão exige validação de identidade do titular. Informamos, no atendimento, as opções disponíveis para o seu caso e quais documentos apresentar."
+    },
+    {
+      "q": "Meu contador precisa do certificado digital da empresa?",
+      "a": "Para transmitir várias obrigações fiscais e trabalhistas em nome da empresa, o certificado do CNPJ costuma ser necessário. Explicamos como isso funciona e como manter o controle sobre o seu certificado."
+    },
+    {
+      "q": "Quanto custa o certificado digital?",
+      "a": "O valor depende do tipo de certificado e do modelo escolhido. Passamos as condições pelo WhatsApp, depois de entender o que você precisa."
+    }
+  ],
+  "related": [
+    "/servicos/contabilidade-empresarial/",
+    "/servicos/legalizacao-de-empresas/",
+    "/contabilidade-em-fortaleza/"
+  ]
+}

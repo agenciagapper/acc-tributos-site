@@ -1,0 +1,90 @@
+{
+  "slug": "/servicos/registro-de-marca/",
+  "type": "servico",
+  "nav": "Registro de marca",
+  "title": "Registro de Marca em Fortaleza e Região | ACC Tributos",
+  "description": "Registro de marca em Fortaleza no INPI com pesquisa de viabilidade e acompanhamento, pela Regularize Marcas do Grupo ACC. Peça orientação pelo WhatsApp.",
+  "keyword": "registro de marca em Fortaleza",
+  "kicker": "Serviço",
+  "h1": "Registro de marca em Fortaleza no INPI para proteger o nome do seu negócio",
+  "lead": "Quer fazer o registro de marca em Fortaleza e região sem enrolação? Com a Regularize Marcas, empresa do Grupo ACC, você tem pesquisa de viabilidade, pedido no INPI e acompanhamento do processo, e a ACC Tributos orienta a parte contábil e societária.",
+  "wa_text": "Olá! Quero registrar a marca do meu negócio no INPI com a Regularize Marcas e a ACC Tributos.",
+  "highlights": [
+    "Pesquisa de viabilidade antes do pedido",
+    "Registro no INPI com a Regularize Marcas",
+    "Acompanhamento do processo",
+    "Orientação de quem já cuida do seu CNPJ"
+  ],
+  "sections": [
+    {
+      "h2": "Por que registrar a marca da sua empresa",
+      "paragraphs": [
+        "Abrir o CNPJ e registrar o nome empresarial na Junta Comercial do Ceará (Jucec) não protege a sua marca. Quem protege o nome comercial, o logotipo e o slogan de um negócio é o registro no INPI, o Instituto Nacional da Propriedade Industrial.",
+        "Sem o registro, outra empresa pode pedir a mesma marca ou uma muito parecida, e você corre o risco de ter de trocar de nome, refazer material e perder clientes que já te reconhecem. Com o registro, a marca passa a ser um ativo seu, com proteção reconhecida em lei."
+      ]
+    },
+    {
+      "h2": "Pesquisa de viabilidade: o primeiro passo",
+      "paragraphs": [
+        "Antes de pedir o registro, é importante saber se a marca pode ser registrada. A pesquisa de viabilidade verifica se já existem marcas iguais ou semelhantes no mesmo ramo de atividade e aponta o risco de o pedido ser negado.",
+        "Esse passo evita gastar tempo com um pedido que tem poucas chances. Se a pesquisa indicar conflito, conversamos sobre alternativas, como ajustar o nome ou o desenho antes de seguir."
+      ]
+    },
+    {
+      "h2": "Como funciona o registro de marca no INPI",
+      "paragraphs": [
+        "O processo começa com a definição do que será registrado e em qual classe de produtos ou serviços. A classe importa porque a proteção vale para o ramo de atividade indicado no pedido.",
+        "Depois, o pedido é protocolado no INPI e passa por análise do órgão, com possibilidade de manifestações de terceiros e exigências a cumprir. A Regularize Marcas acompanha cada movimentação e avisa você sobre o andamento. Os prazos e as taxas seguem o que o INPI define, por isso não prometemos datas: informamos o que se aplica ao seu pedido no momento do atendimento.",
+        "Se o seu negócio é uma empresa em abertura, podemos tratar tudo junto: CNPJ, contrato social e registro da marca."
+      ]
+    },
+    {
+      "h2": "Quem deve pensar em registrar a marca",
+      "paragraphs": [
+        "Todo negócio que tem um nome, um logotipo ou uma identidade que os clientes reconhecem deve considerar o registro. Isso vale para lojas, clínicas, restaurantes, prestadores de serviço, startups, indústrias e profissionais que atuam com marca própria.",
+        "Atendemos Fortaleza, Maracanaú, Eusébio, Aquiraz e região, presencialmente ou 100% online. Todo o contato é feito por WhatsApp, videochamada ou plataforma, e você não precisa se deslocar para começar."
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "title": "Pesquisa de viabilidade",
+      "text": "Você informa o nome e o ramo de atividade. A Regularize Marcas pesquisa marcas iguais ou parecidas e avalia as chances do pedido."
+    },
+    {
+      "title": "Pedido no INPI",
+      "text": "Definimos a classe adequada, reunimos os dados do titular e protocolamos o pedido de registro no INPI."
+    },
+    {
+      "title": "Acompanhamento até a decisão",
+      "text": "Acompanhamos as movimentações do processo, informamos você e orientamos qualquer exigência que apareça."
+    }
+  ],
+  "faq": [
+    {
+      "q": "Registrar o CNPJ já protege a minha marca?",
+      "a": "Não. O CNPJ e o nome empresarial na Junta Comercial têm outra finalidade. A proteção da marca vem do registro no INPI, que é feito em separado."
+    },
+    {
+      "q": "O que é a pesquisa de viabilidade?",
+      "a": "É a busca por marcas iguais ou parecidas já registradas ou pedidas no mesmo ramo. Ela mostra se o seu nome tem chance de ser aceito antes de você pagar o pedido."
+    },
+    {
+      "q": "Quanto tempo leva o registro e quanto custa?",
+      "a": "Os prazos e as taxas são definidos pelo INPI e podem mudar, por isso não prometemos datas nem valores aqui. No atendimento, passamos o que vale para o seu pedido e os honorários da Regularize Marcas."
+    },
+    {
+      "q": "Posso registrar marca sendo pessoa física?",
+      "a": "O pedido pode ser feito em nome de pessoa física ou de empresa, conforme a atividade exercida. Analisamos o seu caso e indicamos o titular mais adequado."
+    },
+    {
+      "q": "Preciso ter empresa aberta para registrar a marca?",
+      "a": "Nem sempre. Mas se você já planeja abrir o negócio, vale tratar CNPJ e marca em conjunto. A ACC Tributos cuida da abertura e a Regularize Marcas, do registro."
+    }
+  ],
+  "related": [
+    "/servicos/legalizacao-de-empresas/",
+    "/servicos/contabilidade-empresarial/",
+    "/contabilidade-em-fortaleza/"
+  ]
+}

@@ -1,0 +1,103 @@
+{
+  "slug": "/servicos/contabilidade-empresarial/",
+  "type": "servico",
+  "nav": "Contabilidade empresarial",
+  "title": "Contabilidade Empresarial em Fortaleza | ACC Tributos",
+  "description": "Contabilidade empresarial em Fortaleza com contador dedicado, guias enviadas com antecedência e WhatsApp respondido por gente. Peça sua proposta.",
+  "keyword": "contabilidade empresarial em Fortaleza",
+  "kicker": "Serviço",
+  "h1": "Contabilidade empresarial em Fortaleza com contador que conhece a sua empresa",
+  "lead": "A contabilidade empresarial em Fortaleza da ACC Tributos cuida dos registros, do balanço, dos demonstrativos e das obrigações acessórias da sua empresa. Você tem um contador dedicado, guias enviadas com antecedência e um WhatsApp respondido pelo time contábil. Atendemos Fortaleza e região, presencialmente ou online.",
+  "wa_text": "Olá! Quero uma proposta de contabilidade empresarial para minha empresa em Fortaleza.",
+  "highlights": [
+    "Contador dedicado que conhece sua empresa",
+    "Guias enviadas com antecedência e conferidas",
+    "WhatsApp respondido pelo time contábil",
+    "Atendimento presencial ou 100% online"
+  ],
+  "sections": [
+    {
+      "h2": "O que está incluído na contabilidade da sua empresa",
+      "paragraphs": [
+        "Contabilidade não é só pagar imposto em dia. É manter os registros organizados para que você saiba o resultado do negócio e não seja pego de surpresa pelo Fisco. A ACC Tributos faz o trabalho técnico para o empresário poder focar em vender e atender."
+      ],
+      "bullets": [
+        "Registros contábeis e conciliação das movimentações",
+        "Balanço patrimonial e demonstrativos do resultado",
+        "Apuração dos impostos e emissão das guias",
+        "Obrigações acessórias exigidas pela Receita Federal, pelo estado e pelo município",
+        "Orientação sobre enquadramento e regime tributário",
+        "Apoio em fiscalizações, notificações e dúvidas do dia a dia"
+      ]
+    },
+    {
+      "h2": "Um contador dedicado, não um número de protocolo",
+      "paragraphs": [
+        "Em muitos escritórios, cada pedido cai em uma fila e cada resposta vem de uma pessoa diferente. Aqui é o oposto. Você tem um contador responsável pela sua empresa, que a conhece pelo nome e entende como o negócio funciona.",
+        "O WhatsApp é respondido pelo time contábil, não por robô. Se surgir uma dúvida sobre uma nota, um pró-labore ou uma compra grande, você pergunta e recebe uma resposta de quem entende do assunto."
+      ]
+    },
+    {
+      "h2": "Guias no prazo e obrigações sob controle",
+      "paragraphs": [
+        "Atraso em guia gera multa e juros, e obrigação acessória não entregue pode travar a empresa. Por isso a rotina da ACC é enviar as guias com antecedência e conferir os valores antes de chegarem até você.",
+        "Também acompanhamos as obrigações acessórias do seu regime, para que nada vença sem que você saiba. Você deixa de depender de planilha e de memória para não esquecer prazo."
+      ]
+    },
+    {
+      "h2": "Contabilidade para quem está começando ou já tem operação",
+      "paragraphs": [
+        "Atendemos desde quem acabou de abrir o CNPJ até empresas com equipe e vários anos de mercado. Se você ainda não tem empresa, fazemos a abertura e já seguimos com a contabilidade. Se já tem contador e não está satisfeito, cuidamos da troca.",
+        "Na troca de contador, a ACC pede ao escritório anterior a documentação e os acessos, revisa a situação fiscal da empresa e assume as obrigações. Você não precisa intermediar nada nem correr atrás de ninguém."
+      ]
+    },
+    {
+      "h2": "Quanto custa a contabilidade empresarial",
+      "paragraphs": [
+        "O valor da mensalidade depende do regime tributário, do faturamento, do número de funcionários e do plano contratado. Duas empresas do mesmo ramo podem ter propostas diferentes, porque a rotina contábil de cada uma é diferente.",
+        "Para não passar um número genérico, enviamos a proposta pelo WhatsApp depois de entender seu caso. É rápido e sem compromisso."
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "title": "Conversa inicial",
+      "text": "Você chama no WhatsApp e conta sobre a empresa: atividade, regime, faturamento aproximado e se tem funcionários."
+    },
+    {
+      "title": "Proposta sob medida",
+      "text": "Montamos a proposta com base na sua rotina e enviamos pelo WhatsApp. Se houver troca de contador, cuidamos da documentação com o escritório anterior."
+    },
+    {
+      "title": "Contabilidade em andamento",
+      "text": "Seu contador dedicado assume os registros, as guias e as obrigações, e você acompanha tudo com comunicação direta."
+    }
+  ],
+  "faq": [
+    {
+      "q": "O que faz uma contabilidade empresarial?",
+      "a": "Registra as movimentações da empresa, apura impostos, emite guias, elabora balanço e demonstrativos e entrega as obrigações acessórias. Também orienta o dono sobre regime tributário, folha e decisões que afetam o caixa."
+    },
+    {
+      "q": "Preciso de contador se minha empresa é pequena?",
+      "a": "Sim. Toda empresa com CNPJ tem obrigações fiscais e contábeis, mesmo as pequenas. Um contador evita multas, mantém a situação regular e ajuda a escolher o enquadramento correto."
+    },
+    {
+      "q": "Quanto custa a contabilidade empresarial?",
+      "a": "Depende do regime tributário, do faturamento, do número de funcionários e do plano. A proposta é enviada pelo WhatsApp depois que entendemos a sua empresa."
+    },
+    {
+      "q": "Como funciona a troca de contador?",
+      "a": "A ACC pede ao escritório anterior a documentação e os acessos, revisa a situação fiscal da empresa e assume as obrigações. O cliente não precisa intermediar esse processo."
+    },
+    {
+      "q": "A ACC atende empresas de fora de Fortaleza?",
+      "a": "Sim. O escritório fica em Maracanaú, mas atendemos Fortaleza e região, como Eusébio e Aquiraz, de forma presencial ou 100% online, por WhatsApp, videochamada e plataforma."
+    }
+  ],
+  "related": [
+    "/servicos/planejamento-tributario/",
+    "/servicos/escrituracao-fiscal/",
+    "/contabilidade-em-fortaleza/"
+  ]
+}

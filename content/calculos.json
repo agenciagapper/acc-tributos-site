@@ -1,0 +1,93 @@
+{
+  "slug": "/servicos/calculos/",
+  "type": "servico",
+  "nav": "Cálculos",
+  "title": "Cálculos Trabalhistas em Fortaleza e Região | ACC Tributos",
+  "description": "Cálculos trabalhistas em Fortaleza, judiciais, extrajudiciais e de multas, feitos por contadores com memória de cálculo clara. Peça pelo WhatsApp.",
+  "keyword": "cálculos trabalhistas em Fortaleza",
+  "kicker": "Serviço",
+  "h1": "Cálculos trabalhistas em Fortaleza, judiciais, extrajudiciais e de multas",
+  "lead": "Precisa de cálculos trabalhistas em Fortaleza e região para uma rescisão, um acordo ou um processo? A ACC Tributos faz cálculos trabalhistas, judiciais, extrajudiciais e de multas, com memória de cálculo detalhada e explicada em linguagem simples.",
+  "wa_text": "Olá! Preciso de um cálculo com a ACC Tributos. Posso explicar o caso por aqui?",
+  "highlights": [
+    "Cálculos trabalhistas com memória detalhada",
+    "Judiciais e extrajudiciais",
+    "Cálculo de multas e atualizações",
+    "Feito por contadores, explicado sem juridiquês"
+  ],
+  "sections": [
+    {
+      "h2": "Cálculos trabalhistas: rescisões, verbas e diferenças",
+      "paragraphs": [
+        "Calcular errado uma rescisão ou uma verba trabalhista pode custar caro, tanto para a empresa quanto para o trabalhador. Um valor a menos gera reclamação. Um valor a mais sai do caixa sem necessidade.",
+        "Nosso time faz o cálculo de verbas como saldo de salário, férias, 13º salário, aviso prévio, horas extras, adicionais e reflexos, além de diferenças salariais e encargos. Tudo conforme a legislação trabalhista e a convenção coletiva da categoria, quando houver.",
+        "Atendemos empresas que precisam conferir valores antes de pagar e trabalhadores que querem entender se o que receberam está correto.",
+        "Se a sua empresa tem departamento pessoal próprio ou terceirizado, também podemos revisar cálculos já feitos. Uma segunda conferência antes do pagamento costuma custar bem menos do que corrigir o erro depois, em acordo ou em processo."
+      ]
+    },
+    {
+      "h2": "Cálculos judiciais para processos e perícias",
+      "paragraphs": [
+        "Em ações trabalhistas, cíveis e de outras áreas, o cálculo é parte central do processo. É ele que mostra quanto é devido, com a atualização monetária e os juros aplicáveis ao caso.",
+        "Preparamos cálculos judiciais para liquidação de sentença, impugnação de cálculos da outra parte e apoio a advogados e empresas durante o processo. Cada planilha traz a memória de cálculo completa, com os critérios usados, para que o resultado possa ser conferido e defendido."
+      ]
+    },
+    {
+      "h2": "Cálculos extrajudiciais para acordos e negociações",
+      "paragraphs": [
+        "Nem todo conflito precisa chegar ao tribunal. Em acordos, rescisões negociadas, composição de dívidas e conciliações, ter um cálculo confiável dá segurança para os dois lados da mesa.",
+        "Fazemos o levantamento dos valores devidos, simulamos cenários de pagamento e entregamos um documento organizado, que pode ser anexado ao acordo. Assim, você negocia com base em números, não em estimativas.",
+        "Isso vale para empresas que querem encerrar uma pendência com segurança e para quem precisa comprovar o que tem a receber. Um cálculo bem feito reduz discussão, acelera a conversa e deixa claro de onde vem cada valor."
+      ]
+    },
+    {
+      "h2": "Cálculo de multas e atualização de débitos",
+      "paragraphs": [
+        "Multas por atraso, descumprimento de contrato ou obrigação fiscal entram em muitas situações do dia a dia da empresa. Nosso time calcula multas, juros e correção sobre débitos, usando os índices e as regras aplicáveis a cada caso.",
+        "Também conferimos cálculos feitos por terceiros. Se você recebeu uma cobrança e quer saber se o valor está correto, enviamos uma análise do que foi cobrado e do que o cálculo deveria considerar.",
+        "Atendemos Fortaleza, Maracanaú, Eusébio, Aquiraz e região, presencialmente ou 100% online. É só enviar os documentos pelo WhatsApp."
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "title": "Você conta o caso",
+      "text": "Pelo WhatsApp, explique o que precisa calcular e envie os documentos disponíveis, como contrato, holerites, sentença, acordo ou cobrança."
+    },
+    {
+      "title": "Fazemos o cálculo",
+      "text": "Nosso contador levanta os dados, aplica os critérios legais e prepara a planilha com a memória de cálculo completa."
+    },
+    {
+      "title": "Entregamos e explicamos",
+      "text": "Você recebe o resultado em documento organizado e uma explicação clara do que foi considerado em cada parte."
+    }
+  ],
+  "faq": [
+    {
+      "q": "Quais tipos de cálculo a ACC Tributos faz?",
+      "a": "Fazemos cálculos trabalhistas, judiciais, extrajudiciais e de multas e atualização de débitos. Se o seu caso não estiver nessa lista, conte a situação e dizemos com sinceridade se podemos ajudar."
+    },
+    {
+      "q": "Preciso de documentos para fazer o cálculo?",
+      "a": "Sim, quanto mais completos os documentos, mais preciso o resultado. Dependendo do caso, usamos contrato, holerites, termo de rescisão, sentença, acordo ou a cobrança recebida. Na conversa inicial dizemos o que enviar."
+    },
+    {
+      "q": "O cálculo pode ser usado em processo judicial?",
+      "a": "Sim. Entregamos memória de cálculo com os critérios usados, o que permite apresentar ou contestar valores no processo. A estratégia jurídica continua com o seu advogado."
+    },
+    {
+      "q": "Vocês atendem advogados e empresas, ou também pessoas físicas?",
+      "a": "Atendemos empresas, advogados e pessoas físicas. Cada caso recebe o mesmo cuidado, com explicação em linguagem simples."
+    },
+    {
+      "q": "Quanto custa um cálculo?",
+      "a": "O valor depende do tipo de cálculo, do período envolvido e da quantidade de documentos. Enviamos a proposta pelo WhatsApp depois de entender o seu caso."
+    }
+  ],
+  "related": [
+    "/servicos/departamento-pessoal/",
+    "/servicos/contabilidade-empresarial/",
+    "/contabilidade-em-fortaleza/"
+  ]
+}

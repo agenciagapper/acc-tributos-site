@@ -1,0 +1,99 @@
+{
+  "slug": "/servicos/escrituracao-fiscal/",
+  "type": "servico",
+  "nav": "Escrituração fiscal",
+  "title": "Escrituração Fiscal em Fortaleza e Região | ACC Tributos",
+  "description": "Escrituração fiscal em Fortaleza com SPED, notas de entrada e saída e apuração de impostos conferidas por contador. Peça sua proposta pelo WhatsApp.",
+  "keyword": "escrituração fiscal em Fortaleza",
+  "kicker": "Serviço",
+  "h1": "Escrituração fiscal em Fortaleza com notas e impostos em dia",
+  "lead": "Escrituração fiscal em Fortaleza e região é o registro correto de todas as notas de entrada e saída da sua empresa. É a base para apurar impostos e entregar o SPED sem erro. A ACC Tributos cuida disso todo mês, com contador dedicado e conferência antes de cada entrega.",
+  "wa_text": "Olá! Tenho uma empresa e quero uma proposta de escrituração fiscal com a ACC Tributos.",
+  "highlights": [
+    "Notas de entrada e saída lançadas e conferidas",
+    "SPED e apurações entregues no prazo",
+    "Contador dedicado que conhece sua empresa",
+    "Atendimento presencial ou 100% online"
+  ],
+  "sections": [
+    {
+      "h2": "O que é escrituração fiscal e por que ela importa",
+      "paragraphs": [
+        "Toda venda, compra e serviço da empresa gera uma nota fiscal. A escrituração fiscal é o trabalho de registrar essas notas nos livros e arquivos exigidos pelo Fisco, classificando cada operação com o imposto que incide sobre ela.",
+        "Quando esse registro está certo, a apuração de ICMS, ISS, PIS, Cofins e demais tributos sai correta. Quando está errado, a empresa paga imposto a mais, perde crédito ou recebe uma notificação meses depois, quando o erro já virou problema.",
+        "Por isso, escrituração fiscal não é tarefa para deixar acumular. Quanto mais cedo cada nota é lançada e conferida, menor o risco de divergência entre o que a sua empresa declara e o que a Receita Federal e a Sefaz-CE já enxergam."
+      ]
+    },
+    {
+      "h2": "O que a ACC Tributos faz na escrituração fiscal da sua empresa",
+      "paragraphs": [
+        "Nosso time contábil assume a rotina fiscal inteira. Você envia os documentos ou libera acesso ao seu sistema emissor, e a equipe organiza, lança e confere tudo antes do fechamento do mês.",
+        "O trabalho inclui:"
+      ],
+      "bullets": [
+        "Escrituração das notas fiscais de entrada e de saída, de mercadorias e de serviços.",
+        "Classificação correta de cada operação, com atenção a créditos tributários que a empresa pode aproveitar.",
+        "Apuração mensal dos impostos conforme o regime tributário da empresa.",
+        "Conferência de notas canceladas, devolvidas, duplicadas ou emitidas com dados incorretos.",
+        "Envio das guias com antecedência, já conferidas, para você pagar sem susto."
+      ]
+    },
+    {
+      "h2": "SPED e obrigações acessórias sem correria",
+      "paragraphs": [
+        "Dependendo da atividade e do regime, a empresa precisa transmitir arquivos digitais como a EFD ICMS IPI (SPED Fiscal) e a EFD Contribuições. Cada um tem layout próprio, regras de validação e prazo definido pelo órgão responsável.",
+        "A ACC Tributos acompanha o calendário, gera os arquivos, valida antes de transmitir e guarda o recibo de entrega. Se aparecer inconsistência, a equipe corrige e explica o que aconteceu, em linguagem simples.",
+        "Também fazemos a ponte com a contabilidade empresarial e o departamento pessoal. Assim, os números fiscais conversam com o balanço e com a folha, e não há surpresa no fim do ano."
+      ]
+    },
+    {
+      "h2": "Para quem a escrituração fiscal faz diferença em Fortaleza e região",
+      "paragraphs": [
+        "Comércios, indústrias, distribuidoras, prestadores de serviço e empresas de tecnologia de Fortaleza, Maracanaú, Eusébio e Aquiraz têm rotinas fiscais diferentes, mas o risco é parecido: nota lançada errada vira imposto errado.",
+        "Se a sua empresa emite muitas notas, trabalha com mais de um estado, tem estoque ou mistura venda de mercadoria com prestação de serviço, a escrituração exige mais cuidado. É nesses casos que um contador acompanhando de perto evita retrabalho.",
+        "Se hoje a sua escrituração está atrasada ou você não confia nos números que recebe, podemos começar por uma revisão do que já foi lançado e seguir daí."
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "title": "Conversa e diagnóstico",
+      "text": "Você fala com nosso time pelo WhatsApp. Entendemos sua atividade, seu regime tributário e como as notas são emitidas hoje."
+    },
+    {
+      "title": "Organização e lançamento",
+      "text": "Recebemos os documentos ou o acesso ao seu sistema, lançamos as notas, classificamos as operações e corrigimos o que estiver fora do lugar."
+    },
+    {
+      "title": "Apuração, SPED e guias",
+      "text": "Apuramos os impostos, geramos e validamos os arquivos, entregamos o que for obrigatório e enviamos as guias com antecedência."
+    }
+  ],
+  "faq": [
+    {
+      "q": "O que é escrituração fiscal?",
+      "a": "É o registro das notas fiscais de compra, venda e serviços da empresa nos livros e arquivos digitais exigidos pelo Fisco. Com ela, os impostos são apurados de forma correta e as obrigações acessórias, como o SPED, são entregues."
+    },
+    {
+      "q": "Toda empresa precisa fazer escrituração fiscal?",
+      "a": "Toda empresa que emite ou recebe notas fiscais precisa manter seus registros fiscais organizados. O formato e as obrigações variam conforme o regime tributário, a atividade e o estado. Nosso contador confirma o que se aplica ao seu caso."
+    },
+    {
+      "q": "O que acontece se a escrituração estiver errada ou atrasada?",
+      "a": "Podem surgir divergências com o que o Fisco já sabe, perda de créditos, imposto pago a mais ou a menos e multas por atraso na entrega de obrigações. Quanto antes a revisão, mais fácil de corrigir."
+    },
+    {
+      "q": "Vocês assumem a escrituração de uma empresa que já tem contador?",
+      "a": "Sim. Pedimos ao escritório anterior a documentação e os acessos, revisamos a situação fiscal e assumimos as obrigações. Você não precisa intermediar essa conversa."
+    },
+    {
+      "q": "Quanto custa o serviço?",
+      "a": "O valor depende do regime tributário, do faturamento, do volume de notas, da quantidade de funcionários e do plano contratado. Enviamos a proposta pelo WhatsApp depois de entender a sua empresa."
+    }
+  ],
+  "related": [
+    "/servicos/auditoria-fiscal-digital/",
+    "/servicos/contabilidade-empresarial/",
+    "/contabilidade-em-fortaleza/"
+  ]
+}
