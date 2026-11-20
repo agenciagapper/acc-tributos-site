@@ -123,8 +123,9 @@ ICONS = ["/assets/img/passo-conversa.webp", "/assets/img/passo-proposta.webp", "
 
 def steps_html(steps):
     lis = "".join(
-        f'<li class="step"><figure class="step__icon"><img src="{ICONS[i % 3]}" width="120" height="110" alt="" loading="lazy"></figure>'
-        f'<span class="k">{i + 1:02d}</span><h3>{e(s["title"])}</h3><p>{e(s["text"])}</p></li>'
+        f'<li class="step"><span class="k" aria-hidden="true">{i + 1:02d}</span><div class="step__card">'
+        f'<figure class="step__icon"><img src="{ICONS[i % 3]}" width="120" height="110" alt="" loading="lazy"></figure>'
+        f'<h3><span class="sr">Passo {i + 1}: </span>{e(s["title"])}</h3><p>{e(s["text"])}</p></div></li>'
         for i, s in enumerate(steps[:3]))
     return f"""<section class="section page-steps" aria-labelledby="t-steps">
   <div class="wrap">
