@@ -1182,8 +1182,8 @@ a.qs-emp:hover{border-color:var(--brand);transform:translateY(-3px)}
    Os dois terminam na mesma linha: a elipse do Joel compensa a foto mais alta. */
 .pair__img{position:absolute;max-width:none;height:auto;width:calc(var(--w)*100%);
   -webkit-mask:var(--fade);mask:var(--fade);animation:personIn .8s cubic-bezier(.2,.8,.2,1) .55s both}
-.pair__img--a{--fade:radial-gradient(90% 84.8% at 50% 10%,#000 72%,transparent 100%);left:calc((var(--c) - .513*var(--w))*100%);bottom:calc(var(--crop)*-100%)}
-.pair__img--j{--fade:radial-gradient(90% 78% at 50% 9.2%,#000 72%,transparent 100%);right:calc((var(--c) - (1 - .561)*var(--w))*100%);bottom:calc((var(--crop) + .0991*var(--w)*var(--ar))*-100%);animation-delay:.7s}
+.pair__img--a{--fade:radial-gradient(160% 84.8% at 100% 10%,#000 72%,transparent 100%);left:calc((var(--c) - .513*var(--w))*100%);bottom:calc(var(--crop)*-100%)}
+.pair__img--j{--fade:radial-gradient(160% 78% at 0% 9.2%,#000 72%,transparent 100%);right:calc((var(--c) - (1 - .561)*var(--w))*100%);bottom:calc((var(--crop) + .0991*var(--w)*var(--ar))*-100%);animation-delay:.7s}
 .stage--pair .nametag{bottom:9%;transform:translateX(-50%);white-space:nowrap;z-index:4;animation:tagIn .5s ease-out 1.15s both}
 .stage--pair .nametag--a{left:calc(var(--c)*100%);right:auto}
 .stage--pair .nametag--j{left:calc((1 - var(--c))*100%);right:auto;animation-delay:1.25s}
@@ -1196,5 +1196,5 @@ a.qs-emp:hover{border-color:var(--brand);transform:translateY(-3px)}
   .stage--pair{width:124%;margin-right:-24%!important}
 }
 @media (max-width:860px){.stage.stage--pair{margin-top:0;--w:.6;--c:.2;--crop:.06}
-  .stage--pair .pair__img--a{--fade:radial-gradient(90% 81.2% at 50% 10%,#000 72%,transparent 100%)}
-  .stage--pair .pair__img--j{--fade:radial-gradient(90% 74.6% at 50% 9.2%,#000 72%,transparent 100%)}}
+  .stage--pair .pair__img--a{--fade:radial-gradient(160% 81.2% at 100% 10%,#000 72%,transparent 100%)}
+  .stage--pair .pair__img--j{--fade:radial-gradient(160% 74.6% at 0% 9.2%,#000 72%,transparent 100%)}}
