@@ -1208,3 +1208,4 @@ a.qs-emp:hover{border-color:var(--brand);transform:translateY(-3px)}
 .logo img.logo__full{width:auto;height:46px}
 .footer .logo img.logo__full{height:52px}
 @media (max-width:860px){.logo img.logo__full{height:38px}}
+.gcard header .gav{color:#fff;font-size:1.05rem}
