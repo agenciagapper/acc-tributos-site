@@ -15,7 +15,7 @@ from datetime import date
 ROOT = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, ROOT)
 SITE = "https://acctributos.com.br"
-WA = "558587541948"
+WA = "5585987541948"
 TODAY = date.today().isoformat()
 GMAPS = "https://www.google.com/maps/place/ACC+TRIBUTOS+CONTABILIDADE/data=!4m2!3m1!1s0x0:0xbfcc2a5d8438b3f3"
 
@@ -161,7 +161,7 @@ def page(p, pages):
                         "inLanguage": "pt-BR", "isPartOf": {"@id": SITE + "/#site"}, "about": {"@id": ORG_ID}, "dateModified": TODAY}]
     if p["type"] in ("servico", "regiao"):
         svc = {"@type": "Service", "name": p["h1"] if p["type"] == "regiao" else p["nav"], "serviceType": p["nav"], "url": url,
-               "provider": {"@type": "AccountingService", "@id": ORG_ID, "name": "ACC Tributos", "telephone": "+55-85-8754-1948",
+               "provider": {"@type": "AccountingService", "@id": ORG_ID, "name": "ACC Tributos", "telephone": "+55-85-98754-1948",
                             "address": {"@type": "PostalAddress", "streetAddress": "Av. Yolanda Pontes Vidal Queiroz, 57, Edifício Business Place, Torre I, Sala 1103",
                                         "addressLocality": "Maracanaú", "addressRegion": "CE", "postalCode": "61900-410", "addressCountry": "BR"}},
                "areaServed": [{"@type": "City", "name": p["city"]}] if p["type"] == "regiao" else
@@ -426,7 +426,7 @@ def build():
         ("Quais dados coletamos", "Nome, telefone de WhatsApp, e-mail e o assunto que você escolhe no formulário. Também registramos dados de navegação, como páginas visitadas e origem do acesso, por meio de ferramentas de análise."),
         ("Para que usamos", "Para responder seu contato, enviar a proposta que você pediu e entender quais páginas ajudam mais quem nos procura. Não vendemos nem cedemos seus dados para terceiros fora dessas finalidades."),
         ("Por quanto tempo guardamos", "Pelo tempo necessário para o atendimento e para cumprir obrigações legais e contábeis. Depois disso, os dados são excluídos ou anonimizados."),
-        ("Seus direitos", "Você pode pedir acesso, correção, exclusão ou portabilidade dos seus dados, ou retirar o consentimento, pelo WhatsApp (85) 8754-1948."),
+        ("Seus direitos", "Você pode pedir acesso, correção, exclusão ou portabilidade dos seus dados, ou retirar o consentimento, pelo WhatsApp (85) 98754-1948."),
         ("Cookies", "Usamos cookies para medir o uso do site e melhorar o atendimento. Você pode bloqueá-los nas configurações do seu navegador."),
     ]
     inner = '<section class="section" style="padding-top:var(--s-3)"><div class="wrap"><article class="prose__main prose__main--narrow">' + "".join(

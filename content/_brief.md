@@ -11,7 +11,7 @@ Captar leads orgânicos (Google) de empresas e pessoas físicas em **Fortaleza e
 - Nota **4,8 no Google com 199 avaliações**.
 - Sócios: **Joel Mendonça** (contador, CRC/CE 25911, MBA em Direito Tributário, 12 anos como assessor e consultor, professor de gestão financeira e empresarial) e **Alyson Xavier** (contador, CRC/CE 27954).
 - Escritório: Edifício Business Place, Torre I, Sala 1103, Av. Yolanda Pontes Vidal Queiroz, 57, Jereissati I, Maracanaú, CE, CEP 61900-410. Atende presencialmente ou 100% online (WhatsApp, videochamada, plataforma).
-- Horário: segunda a sexta, 8h às 18h. WhatsApp comercial (85) 8754-1948 (único número exibido no site). (85) 3371-0502 virou o WhatsApp "Já sou cliente" (topo e barra inferior).
+- Horário: segunda a sexta, 8h às 18h. WhatsApp comercial (85) 98754-1948 (único número exibido no site). (85) 3371-0502 virou o WhatsApp "Já sou cliente" (topo e barra inferior).
 - Abertura de empresa: CNPJ, contrato social e inscrições municipal e estadual (quando obrigatórias) em **até 24 horas** após receber os documentos. Custo de abertura de **R$ 500 a R$ 1.200**, conforme contrato social, porte e modelo societário. Licenças e alvarás à parte (dependem da prefeitura e atividade).
 - Mensalidade: NÃO cite valores. Diga que depende de regime, faturamento, funcionários e plano, e que a proposta é enviada pelo WhatsApp.
 - Troca de contador: a ACC pede ao escritório anterior documentação e acessos, revisa a situação fiscal e assume as obrigações; o cliente não precisa intermediar.

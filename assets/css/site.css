@@ -1204,3 +1204,7 @@ a.qs-emp:hover{border-color:var(--brand);transform:translateY(-3px)}
 /* topo: atalho de WhatsApp para quem já é cliente */
 .topbar .topbar__cli{display:inline-flex;gap:.4rem;align-items:center;font-weight:600}
 .topbar .topbar__cli svg{color:#25D366}
+/* logo oficial: Grupo ACC Contabilidade (símbolo + nome) */
+.logo img.logo__full{width:auto;height:46px}
+.footer .logo img.logo__full{height:52px}
+@media (max-width:860px){.logo img.logo__full{height:38px}}

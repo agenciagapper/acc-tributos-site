@@ -7,7 +7,7 @@
    Destino dos dados: window.ACC_FORM_ENDPOINT (padrão /api/form.php)
    ========================================================= */
 (function(){
-  var d=document, ENDPOINT=window.ACC_FORM_ENDPOINT||'/api/form.php', WA_NUM='558587541948';
+  var d=document, ENDPOINT=window.ACC_FORM_ENDPOINT||'/api/form.php', WA_NUM='5585987541948';
   function track(name,data){
     if(window.gtag)window.gtag('event',name,data||{});
     else{window.dataLayer=window.dataLayer||[];window.dataLayer.push(Object.assign({event:name},data||{}));}

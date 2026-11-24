@@ -20,7 +20,7 @@ def obrigado_whatsapp():
   <div class="ty__icon" aria-hidden="true"><svg width="34" height="34"><use href="#i-wa"/></svg></div>
   <p class="ty__big">Obrigado<span id="waNome"></span>. A conversa abre em <b id="waCount">3</b> segundos.</p>
   <p>Um contador da ACC Tributos responde por lá, de segunda a sexta, das 8h às 18h. Se a conversa não abrir sozinha, use o botão.</p>
-  <a class="btn" id="waGo" data-direto href="https://wa.me/558587541948"><span class="wa-dot"><svg><use href="#i-wa"/></svg></span>Abrir o WhatsApp agora</a>
+  <a class="btn" id="waGo" data-direto href="https://wa.me/5585987541948"><span class="wa-dot"><svg><use href="#i-wa"/></svg></span>Abrir o WhatsApp agora</a>
 </div></section>"""
     return meta, inner
 
@@ -34,7 +34,7 @@ def obrigado_form():
   <div class="ty__icon" aria-hidden="true"><svg width="34" height="34"><use href="#i-check"/></svg></div>
   <p class="ty__big">Tudo certo<span id="waNome"></span>. A conversa no WhatsApp abre em <b id="waCount">3</b> segundos.</p>
   <p>A mensagem já vai pronta com o assunto que você escolheu, é só enviar. Se a conversa não abrir sozinha, use o botão.</p>
-  <a class="btn" id="waGo" data-direto href="https://wa.me/558587541948"><span class="wa-dot"><svg><use href="#i-wa"/></svg></span>Abrir o WhatsApp agora</a>
+  <a class="btn" id="waGo" data-direto href="https://wa.me/5585987541948"><span class="wa-dot"><svg><use href="#i-wa"/></svg></span>Abrir o WhatsApp agora</a>
   <ol class="ty__steps">
     <li><b>Conversa no WhatsApp</b>Um contador responde de segunda a sexta, das 8h às 18h.</li>
     <li><b>Conversa de diagnóstico</b>Entendemos atividade, faturamento e funcionários da empresa.</li>
