@@ -7,7 +7,7 @@
    Destino dos dados: window.ACC_FORM_ENDPOINT (padrão /api/form.php)
    ========================================================= */
 (function(){
-  var d=document, ENDPOINT=window.ACC_FORM_ENDPOINT||'/api/form.php', WA_NUM='5585998250357';
+  var d=document, ENDPOINT=window.ACC_FORM_ENDPOINT||'/api/form.php', WA_NUM='558587541948';
   function track(name,data){window.dataLayer=window.dataLayer||[];window.dataLayer.push(Object.assign({event:name},data||{}));}
   /* ---------- atribuição: primeiro e último toque ----------
      Um "toque" é registrado quando a pessoa chega de fora do site (com UTM, ID de clique
@@ -123,13 +123,27 @@
 
   var dlgT=dlg.querySelector('#wa-modal-t'), dlgTDefault=dlgT.textContent;
 
+  /* nome da página atual, para personalizar a mensagem do WhatsApp */
+  function pagina(){
+    if(location.pathname==='/')return 'Página inicial';
+    var c=d.querySelector('.crumbs [aria-current="page"]'); if(c&&c.textContent.trim())return c.textContent.trim();
+    var h=d.querySelector('h1'); if(h&&h.textContent.trim())return h.textContent.trim().slice(0,90);
+    return (d.title||'').split('|')[0].trim();
+  }
+  var GENERICO=/vim pelo site e quero falar com um contador/i;
+  function msgPara(href){
+    var m=msgFrom(href);
+    if(!m||GENERICO.test(m))m='Olá! Vim pela página "'+pagina()+'" do site e quero falar com um contador.';
+    return m;
+  }
+
   function msgFrom(href){try{return new URL(href).searchParams.get('text')||'';}catch(e){return '';}}
 
   d.addEventListener('click',function(e){
     var a=e.target.closest('a[href*="wa.me/"]'); if(!a||a.hasAttribute('data-direto'))return;
     if(!dlg.showModal)return; // navegador sem suporte a dialog: segue direto
     e.preventDefault(); e.stopPropagation();
-    pending={msg:msgFrom(a.href)||'Olá! Vim pelo site e quero falar com um contador.'};
+    pending={msg:msgPara(a.href)};
     dlgT.textContent=a.dataset.titulo||dlgTDefault;
     if(a.closest('.wa-fab'))tipOff();
     var s=saved(); if(s.nome)wf.nome.value=s.nome; if(s.telefone)wf.telefone.value=s.telefone;
@@ -162,7 +176,10 @@
       if(!ok){lf.querySelector('[aria-invalid="true"]').focus();return;}
       lf.querySelector('button[type=submit]').disabled=true;
       save({nome:lf.nome.value.trim(),telefone:lf.whatsapp.value.trim()});
-      var fd=new FormData(lf); fd.append('tipo','formulario');
+      var assunto=lf.assunto?lf.assunto.value:'';
+      var msg='Olá! Preenchi o formulário do site'+(assunto?' e preciso de: '+assunto.replace(/^./,function(c){return c.toLowerCase();})+'.':'.')+' Página: '+pagina()+'.';
+      try{sessionStorage.setItem('acc_wa_msg',msg);}catch(err){}
+      var fd=new FormData(lf); fd.append('tipo','formulario'); fd.append('mensagem',msg);
       track('generate_lead',{canal:'formulario',assunto:lf.assunto?lf.assunto.value:'',origem:origem()});
       send(fd).then(function(){location.href='/obrigado/';});
     });

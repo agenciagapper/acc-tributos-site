@@ -20,8 +20,7 @@ def obrigado_whatsapp():
   <div class="ty__icon" aria-hidden="true"><svg width="34" height="34"><use href="#i-wa"/></svg></div>
   <p class="ty__big">Obrigado<span id="waNome"></span>. A conversa abre em <b id="waCount">3</b> segundos.</p>
   <p>Um contador da ACC Tributos responde por lá, de segunda a sexta, das 8h às 18h. Se a conversa não abrir sozinha, use o botão.</p>
-  <a class="btn" id="waGo" data-direto href="https://wa.me/5585998250357"><span class="wa-dot"><svg><use href="#i-wa"/></svg></span>Abrir o WhatsApp agora</a>
-  <p class="ty__small">Prefere ligar? <a href="tel:+558533710502">(85) 3371-0502</a></p>
+  <a class="btn" id="waGo" data-direto href="https://wa.me/558587541948"><span class="wa-dot"><svg><use href="#i-wa"/></svg></span>Abrir o WhatsApp agora</a>
 </div></section>"""
     return meta, inner
 
@@ -29,13 +28,15 @@ def obrigado_whatsapp():
 def obrigado_form():
     meta = {"slug": "/obrigado/", "type": "institucional", "nav": "Obrigado", "kicker": "Recebemos seus dados", "noindex": True, "no_final": True,
             "title": "Obrigado pelo contato | ACC Tributos",
-            "description": "Recebemos seus dados. Um contador da ACC Tributos vai entrar em contato pelo WhatsApp no próximo dia útil.",
+            "description": "Recebemos seus dados. Estamos abrindo a conversa com um contador da ACC Tributos no WhatsApp.",
             "h1": "Obrigado, recebemos seus dados", "lead": ""}
     inner = """<section class="section ty" style="padding-top:var(--s-2)"><div class="wrap ty__box">
   <div class="ty__icon" aria-hidden="true"><svg width="34" height="34"><use href="#i-check"/></svg></div>
-  <p class="ty__big">Tudo certo<span id="obNome"></span>. Um contador vai chamar você no WhatsApp com o diagnóstico.</p>
+  <p class="ty__big">Tudo certo<span id="waNome"></span>. A conversa no WhatsApp abre em <b id="waCount">3</b> segundos.</p>
+  <p>A mensagem já vai pronta com o assunto que você escolheu, é só enviar. Se a conversa não abrir sozinha, use o botão.</p>
+  <a class="btn" id="waGo" data-direto href="https://wa.me/558587541948"><span class="wa-dot"><svg><use href="#i-wa"/></svg></span>Abrir o WhatsApp agora</a>
   <ol class="ty__steps">
-    <li><b>Hoje ou no próximo dia útil</b>Um contador entra em contato pelo número que você informou.</li>
+    <li><b>Conversa no WhatsApp</b>Um contador responde de segunda a sexta, das 8h às 18h.</li>
     <li><b>Conversa de diagnóstico</b>Entendemos atividade, faturamento e funcionários da empresa.</li>
     <li><b>Proposta</b>Você recebe a proposta com o regime tributário mais adequado ao seu caso.</li>
   </ol>
