@@ -103,6 +103,26 @@
   dlg.querySelector('.wa-modal__x').addEventListener('click',function(){dlg.close();});
   dlg.addEventListener('click',function(e){if(e.target===dlg)dlg.close();});
 
+  /* ---------- botão flutuante do WhatsApp (todas as páginas) ---------- */
+  var WA_TXT='Olá! Vim pelo site e quero falar com um contador.';
+  var fab=d.createElement('div'); fab.className='wa-fab';
+  fab.innerHTML='<div class="wa-fab__tip" role="status" hidden>'+
+      '<button type="button" class="wa-fab__close" aria-label="Fechar aviso">&times;</button>'+
+      '<a href="https://wa.me/'+WA_NUM+'?text='+encodeURIComponent(WA_TXT)+'" data-track="whatsapp" data-wa data-titulo="Fale agora com a ACC">'+
+        '<b>Fale agora com a ACC</b><span>Um contador responde no WhatsApp</span></a>'+
+    '</div>'+
+    '<a class="wa-fab__btn" href="https://wa.me/'+WA_NUM+'?text='+encodeURIComponent(WA_TXT)+'" data-track="whatsapp" data-wa data-titulo="Fale agora com a ACC" aria-label="Fale agora com a ACC pelo WhatsApp">'+
+      '<svg width="30" height="30" aria-hidden="true"><use href="#i-wa"/></svg></a>';
+  d.body.appendChild(fab);
+  var tip=fab.querySelector('.wa-fab__tip');
+  function tipOff(){tip.hidden=true; try{sessionStorage.setItem('acc_fab_tip','0');}catch(e){}}
+  fab.querySelector('.wa-fab__close').addEventListener('click',tipOff);
+  var tipSeen=''; try{tipSeen=sessionStorage.getItem('acc_fab_tip')||'';}catch(e){}
+  if(tipSeen!=='0')setTimeout(function(){tip.hidden=false;},tipSeen?400:3500);
+  try{sessionStorage.setItem('acc_fab_tip',tipSeen||'1');}catch(e){}
+
+  var dlgT=dlg.querySelector('#wa-modal-t'), dlgTDefault=dlgT.textContent;
+
   function msgFrom(href){try{return new URL(href).searchParams.get('text')||'';}catch(e){return '';}}
 
   d.addEventListener('click',function(e){
@@ -110,6 +130,8 @@
     if(!dlg.showModal)return; // navegador sem suporte a dialog: segue direto
     e.preventDefault(); e.stopPropagation();
     pending={msg:msgFrom(a.href)||'Olá! Vim pelo site e quero falar com um contador.'};
+    dlgT.textContent=a.dataset.titulo||dlgTDefault;
+    if(a.closest('.wa-fab'))tipOff();
     var s=saved(); if(s.nome)wf.nome.value=s.nome; if(s.telefone)wf.telefone.value=s.telefone;
     wf.querySelectorAll('[aria-invalid]').forEach(function(x){x.removeAttribute('aria-invalid');});
     wf.querySelector('button[type=submit]').disabled=false;

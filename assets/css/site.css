@@ -317,7 +317,7 @@ p{margin:0}
 .progress span{display:block;height:100%;width:100%;background:linear-gradient(90deg,var(--brand),#5B6BFF 70%,var(--stamp));transform-origin:0 50%;transform:scaleX(var(--p,0))}
 
 /* palco do hero: painel cobalto + símbolo 3D + recorte que sai da moldura */
-.stage{position:relative;aspect-ratio:4/5;isolation:isolate;--mx:0;--my:0}
+.stage{position:relative;aspect-ratio:1/1;isolation:isolate;--mx:0;--my:0}
 .stage__panel{position:absolute;inset:16% 0 0 0;border-radius:var(--r-3);overflow:hidden;
   background:radial-gradient(120% 80% at 80% 0%,#3B4CFF 0%,transparent 55%),linear-gradient(165deg,#1326E8 0%,#0B17A6 55%,#080D2B 100%);
   box-shadow:0 40px 80px -40px rgba(19,38,232,.65)}
@@ -325,14 +325,14 @@ p{margin:0}
 .stage__panel::after{content:"";position:absolute;inset:0;opacity:.18;mix-blend-mode:overlay;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='2'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E")}
 .stage__glow{position:absolute;width:60%;aspect-ratio:1;left:calc(20% + var(--mx)*30px);top:calc(10% + var(--my)*30px);border-radius:50%;background:radial-gradient(circle,rgba(240,180,60,.45),transparent 65%);filter:blur(20px);transition:left .4s ease-out,top .4s ease-out}
 .stage [data-depth]{transform:translate3d(calc(var(--mx)*var(--d,0)*1px),calc(var(--my)*var(--d,0)*1px),0);transition:transform .35s ease-out}
-.stage__hex{position:absolute;z-index:1;width:70%;left:15%;top:6%;opacity:.95;filter:drop-shadow(0 30px 40px rgba(8,13,43,.45));animation:float 9s ease-in-out infinite}
+.stage__hex{position:absolute;z-index:1;width:54%;left:23%;top:0;opacity:.95;filter:drop-shadow(0 30px 40px rgba(8,13,43,.45));animation:float 9s ease-in-out infinite}
 .stage__person{position:absolute;z-index:2;bottom:0;width:64%;height:auto;
   -webkit-mask:linear-gradient(to bottom,#000 82%,transparent 100%);mask:linear-gradient(to bottom,#000 82%,transparent 100%);
   filter:drop-shadow(0 20px 30px rgba(8,13,43,.35))}
-/* mesma escala para os dois; a foto do Joel é mais alta, então desce para alinhar as cabeças */
-.stage__person--a{left:-14%;bottom:0;width:80%}
-.stage__person--j{right:-8.4%;bottom:-6.3%;width:80%}
-.stage .stage__panel{top:30%}
+/* sócios lado a lado, mesma escala, sem sobreposição; a foto do Joel é mais alta, então desce para alinhar as cabeças */
+.stage__person--a{left:-9.8%;bottom:-12%;width:60%}
+.stage__person--j{right:-5.3%;bottom:-17.9%;width:60%}
+.stage .stage__panel{top:26%}
 .nametag{position:absolute;z-index:4;bottom:5%;display:grid;gap:2px;padding:.55rem .85rem;border-radius:var(--r-1);background:rgba(255,253,248,.94);box-shadow:var(--shadow);font-size:var(--t-sm);line-height:1.2;backdrop-filter:blur(6px)}
 .nametag b{font-weight:700}
 .nametag span{font-size:var(--t-xs);color:var(--brand);font-weight:600;font-variant-numeric:tabular-nums}
@@ -577,8 +577,6 @@ p{margin:0}
   .badge{top:56%;left:0;width:8.5rem}
   .team .people{grid-template-columns:1fr}
   .team__photo--sub{right:0;width:62%}
-  .stage__person--a{left:-6%;width:76%}
-  .stage__person--j{right:-1%;bottom:-6%;width:76%}
   .marquee__label{display:none}
   .final__hex{width:200px;right:-50px;top:-50px}
   .hero__kicker{font-size:var(--t-xs)}
@@ -721,7 +719,7 @@ body{font-size:1.0625rem}
 
 /* recortes dos sócios: fora do painel só a cabeça aparece; corpo fica preso ao painel (sem sombra sobrando) */
 .stage__people{position:absolute;inset:0;z-index:2;pointer-events:none;
-  clip-path:polygon(-30% -10%,130% -10%,130% 30%,100% 30%,100% calc(100% - 28px),calc(100% - 8px) calc(100% - 8px),calc(100% - 28px) 100%,28px 100%,8px calc(100% - 8px),0 calc(100% - 28px),0 30%,-30% 30%)}
+  clip-path:polygon(-30% -10%,130% -10%,130% 26%,100% 26%,100% calc(100% - 28px),calc(100% - 8px) calc(100% - 8px),calc(100% - 28px) 100%,28px 100%,8px calc(100% - 8px),0 calc(100% - 28px),0 26%,-30% 26%)}
 .stage__person{filter:none;-webkit-mask:none;mask:none}
 
 /* =========================================================
@@ -942,6 +940,26 @@ a.qs-emp:hover{border-color:var(--brand);transform:translateY(-3px)}
 .wa-modal small{font-size:var(--t-xs);color:var(--ink-2);text-align:center}
 .wa-modal small a{color:var(--ink-2)}
 @media (prefers-reduced-motion:reduce){.wa-modal[open]{animation:none}}
+/* botão flutuante do WhatsApp */
+.wa-fab{position:fixed;right:24px;bottom:24px;z-index:46;display:flex;flex-direction:column;align-items:flex-end;gap:12px;pointer-events:none}
+.wa-fab > *{pointer-events:auto}
+.wa-fab__btn{position:relative;display:grid;place-items:center;width:60px;height:60px;border-radius:50%;background:#1FA855;color:#fff;box-shadow:0 12px 28px -8px rgba(31,168,85,.6),0 4px 12px rgba(11,18,48,.18);transition:transform .2s,background .2s}
+.wa-fab__btn:hover{background:#178C46;transform:scale(1.06)}
+.wa-fab__btn:focus-visible{outline:3px solid var(--brand);outline-offset:3px}
+.wa-fab__btn::before{content:"";position:absolute;inset:0;border-radius:50%;border:2px solid #1FA855;animation:waPulse 2.4s ease-out infinite}
+.wa-fab__btn svg{width:30px;height:30px}
+.wa-fab__tip{position:relative;max-width:250px;background:#fff;color:var(--ink);border-radius:16px 16px 4px 16px;box-shadow:0 18px 40px -14px rgba(11,18,48,.4);border:1px solid var(--line);animation:tipIn .35s cubic-bezier(.2,.8,.2,1)}
+.wa-fab__tip[hidden]{display:none}
+.wa-fab__tip a{display:grid;gap:3px;padding:.85rem 2.4rem .85rem 1rem;text-decoration:none;color:inherit}
+.wa-fab__tip b{font:700 var(--t-md)/1.2 var(--f-body)}
+.wa-fab__tip span{font-size:var(--t-xs);color:var(--ink-2)}
+.wa-fab__close{position:absolute;right:6px;top:6px;width:28px;height:28px;border:0;border-radius:50%;background:transparent;color:var(--ink-2);font-size:1.15rem;line-height:1;cursor:pointer}
+.wa-fab__close:hover{background:var(--paper-2)}
+@keyframes waPulse{0%{transform:scale(1);opacity:.7}100%{transform:scale(1.5);opacity:0}}
+@keyframes tipIn{from{opacity:0;transform:translateY(8px) scale(.96)}to{opacity:1;transform:none}}
+@media (max-width:860px){.wa-fab{right:14px;bottom:calc(86px + env(safe-area-inset-bottom))}.wa-fab__btn{width:54px;height:54px}.wa-fab__tip{max-width:220px}}
+@media (prefers-reduced-motion:reduce){.wa-fab__btn::before,.wa-fab__tip{animation:none}}
+@media print{.wa-fab{display:none}}
 
 /* obrigado */
 .ty__box{max-width:40rem;display:grid;gap:1rem;justify-items:start}
