@@ -1177,14 +1177,13 @@ a.qs-emp:hover{border-color:var(--brand);transform:translateY(-3px)}
   -webkit-mask:linear-gradient(to bottom,#000 60%,transparent 96%);mask:linear-gradient(to bottom,#000 60%,transparent 96%);
   animation:hexIn .9s cubic-bezier(.2,.8,.2,1) both,float 9s ease-in-out .9s infinite}
 /* fade na base: disfarça o corte do busto */
-.pair{position:absolute;inset:0;z-index:2;pointer-events:none;
-  -webkit-mask:linear-gradient(to bottom,#000 80%,transparent 99%),linear-gradient(to right,transparent,#000 9%,#000 91%,transparent);
-  -webkit-mask-composite:source-in;
-  mask:linear-gradient(to bottom,#000 80%,transparent 99%),linear-gradient(to right,transparent,#000 9%,#000 91%,transparent);
-  mask-composite:intersect}
-.pair__img{position:absolute;max-width:none;height:auto;width:calc(var(--w)*100%);animation:personIn .8s cubic-bezier(.2,.8,.2,1) .55s both}
-.pair__img--a{left:calc((var(--c) - .513*var(--w))*100%);bottom:calc(var(--crop)*-100%)}
-.pair__img--j{right:calc((var(--c) - (1 - .561)*var(--w))*100%);bottom:calc((var(--crop) + .0991*var(--w)*var(--ar))*-100%);animation-delay:.7s}
+.pair{position:absolute;inset:0;z-index:2;pointer-events:none}
+/* fade só na base, em elipse (cantos arredondados); laterais inteiras.
+   Os dois terminam na mesma linha: a elipse do Joel compensa a foto mais alta. */
+.pair__img{position:absolute;max-width:none;height:auto;width:calc(var(--w)*100%);
+  -webkit-mask:var(--fade);mask:var(--fade);animation:personIn .8s cubic-bezier(.2,.8,.2,1) .55s both}
+.pair__img--a{--fade:radial-gradient(90% 84.8% at 50% 10%,#000 72%,transparent 100%);left:calc((var(--c) - .513*var(--w))*100%);bottom:calc(var(--crop)*-100%)}
+.pair__img--j{--fade:radial-gradient(90% 78% at 50% 9.2%,#000 72%,transparent 100%);right:calc((var(--c) - (1 - .561)*var(--w))*100%);bottom:calc((var(--crop) + .0991*var(--w)*var(--ar))*-100%);animation-delay:.7s}
 .stage--pair .nametag{bottom:9%;transform:translateX(-50%);white-space:nowrap;z-index:4;animation:tagIn .5s ease-out 1.15s both}
 .stage--pair .nametag--a{left:calc(var(--c)*100%);right:auto}
 .stage--pair .nametag--j{left:calc((1 - var(--c))*100%);right:auto;animation-delay:1.25s}
@@ -1196,4 +1195,6 @@ a.qs-emp:hover{border-color:var(--brand);transform:translateY(-3px)}
 @media (min-width:1000px){
   .stage--pair{width:124%;margin-right:-24%!important}
 }
-@media (max-width:860px){.stage.stage--pair{margin-top:0}}
+@media (max-width:860px){.stage.stage--pair{margin-top:0;--w:.6;--c:.2;--crop:.06}
+  .stage--pair .pair__img--a{--fade:radial-gradient(90% 81.2% at 50% 10%,#000 72%,transparent 100%)}
+  .stage--pair .pair__img--j{--fade:radial-gradient(90% 74.6% at 50% 9.2%,#000 72%,transparent 100%)}}
