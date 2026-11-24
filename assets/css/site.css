@@ -1036,7 +1036,7 @@ a.qs-emp:hover{border-color:var(--brand);transform:translateY(-3px)}
   .mbar a{display:flex;align-items:center;justify-content:center;gap:.5rem;min-height:50px;border-radius:var(--r-pill);font:600 var(--t-md)/1 var(--f-body);text-decoration:none}
   .mbar__cli{border:1.5px solid var(--ink);color:var(--ink)}
   .mbar__cli svg{color:#1FA855}
-  .mbar{grid-template-columns:1fr 1.25fr}
+  .mbar{grid-template-columns:1fr}
   .mbar a{white-space:nowrap;font-size:.95rem;gap:.4rem}
   .mbar__wa{background:#1FA855;color:#fff}
   .mbar__wa:active{background:#178C46}

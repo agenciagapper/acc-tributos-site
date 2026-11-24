@@ -8,7 +8,17 @@
    ========================================================= */
 (function(){
   var d=document, ENDPOINT=window.ACC_FORM_ENDPOINT||'/api/form.php', WA_NUM='558587541948';
-  function track(name,data){window.dataLayer=window.dataLayer||[];window.dataLayer.push(Object.assign({event:name},data||{}));}
+  function track(name,data){
+    if(window.gtag)window.gtag('event',name,data||{});
+    else{window.dataLayer=window.dataLayer||[];window.dataLayer.push(Object.assign({event:name},data||{}));}
+  }
+  /* lead de formulário ou do WhatsApp: GA4 (generate_lead), conversão do Google Ads e Lead no Pixel da Meta */
+  function lead(data){
+    track('generate_lead',data);
+    var t=window.ACC_TAGS;
+    if(t&&window.gtag)window.gtag('event','conversion',{send_to:t.adsLead});
+    if(window.fbq)window.fbq('track','Lead',{content_name:data.canal,content_category:data.assunto||''});
+  }
   /* ---------- atribuição: primeiro e último toque ----------
      Um "toque" é registrado quando a pessoa chega de fora do site (com UTM, ID de clique
      ou vinda de outro site). A navegação interna não muda nada.
@@ -162,7 +172,7 @@
     save({nome:nome,telefone:tel});
     try{sessionStorage.setItem('acc_wa_msg',(pending&&pending.msg)||'');}catch(err){}
     var fd=new FormData(wf); fd.append('tipo','whatsapp'); fd.append('mensagem',(pending&&pending.msg)||'');
-    track('generate_lead',{canal:'whatsapp',page:location.pathname,origem:origem()});
+    lead({canal:'whatsapp',page:location.pathname,origem:origem()});
     send(fd).then(function(){location.href='/obrigado-whatsapp/';});
   });
 
@@ -180,7 +190,7 @@
       var msg='Olá! Preenchi o formulário do site'+(assunto?' e preciso de: '+assunto.replace(/^./,function(c){return c.toLowerCase();})+'.':'.')+' Página: '+pagina()+'.';
       try{sessionStorage.setItem('acc_wa_msg',msg);}catch(err){}
       var fd=new FormData(lf); fd.append('tipo','formulario'); fd.append('mensagem',msg);
-      track('generate_lead',{canal:'formulario',assunto:lf.assunto?lf.assunto.value:'',origem:origem()});
+      lead({canal:'formulario',page:location.pathname,assunto:lf.assunto?lf.assunto.value:'',origem:origem()});
       send(fd).then(function(){location.href='/obrigado/';});
     });
   }

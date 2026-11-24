@@ -45,8 +45,8 @@
 
   // UTMs e origem: capturados em forms.js (atribuição primeiro e último toque)
 
-  // eventos (GA4 entra aqui quando estiver instalado)
-  function track(name,data){window.dataLayer=window.dataLayer||[];window.dataLayer.push(Object.assign({event:name},data||{}));}
+  // eventos: dataLayer e GA4 (as tags ficam no <head>, só no domínio oficial)
+  function track(name,data){if(window.gtag)window.gtag('event',name,data||{});else{window.dataLayer=window.dataLayer||[];window.dataLayer.push(Object.assign({event:name},data||{}));}}
   d.addEventListener('click',function(e){
     var a=e.target.closest('[data-track]'); if(a)track(a.dataset.track+'_click',{link_url:a.href,page:location.pathname});
   });

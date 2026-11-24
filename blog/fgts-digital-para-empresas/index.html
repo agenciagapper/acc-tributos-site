@@ -24,7 +24,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Schibsted+Grotesk:wght@500;600;700;800&family=IBM+Plex+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:wght@500&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="/assets/css/site.css?v=36">
+<link rel="stylesheet" href="/assets/css/site.css?v=37">
 <script type="application/ld+json">
 {
  "@context": "https://schema.org",
@@ -82,6 +82,21 @@
  ]
 }
 </script>
+<!-- TAGS: GA4, Google Ads e Pixel da Meta. Carregam só no domínio oficial (ou com ?tags=1 para testar). -->
+<script>
+(function(w,d){
+  if(!/(^|\.)acctributos\.com\.br$/.test(location.hostname)&&!/[?&]tags=1\b/.test(location.search))return;
+  w.ACC_TAGS={ga:'G-KC9NJ4GKL6',ads:'AW-710493435',adsLead:'AW-710493435/KnniCJjtoOgCEPuJ5dIC',pixel:'358134739537831'};
+  var s=d.createElement('script');s.async=true;s.src='https://www.googletagmanager.com/gtag/js?id='+w.ACC_TAGS.ga;d.head.appendChild(s);
+  w.dataLayer=w.dataLayer||[];w.gtag=function(){w.dataLayer.push(arguments);};
+  w.gtag('js',new Date());w.gtag('config',w.ACC_TAGS.ga);w.gtag('config',w.ACC_TAGS.ads);
+  !function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;t.src=v;
+  s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(w,d,'script','https://connect.facebook.net/en_US/fbevents.js');
+  w.fbq('init',w.ACC_TAGS.pixel);w.fbq('track','PageView');
+})(window,document);
+</script>
+<!-- /TAGS -->
 </head>
 <body>
 <a class="skip" href="#conteudo">Pular para o conteúdo</a>
@@ -305,11 +320,10 @@
 </footer>
 
 <nav class="mbar" aria-label="Contato rápido">
-  <a class="mbar__cli" href="https://wa.me/558533710502?text=Ol%C3%A1%21%20J%C3%A1%20sou%20cliente%20da%20ACC%20Tributos." data-direto data-track="whatsapp_cliente"><svg width="20" height="20"><use href="#i-wa"/></svg>Já sou cliente</a>
   <a class="mbar__wa" href="https://wa.me/558587541948?text=Ol%C3%A1%21%20Vim%20pelo%20site%20e%20quero%20falar%20com%20um%20contador." data-track="whatsapp" data-wa><svg width="20" height="20"><use href="#i-wa"/></svg>Falar no WhatsApp</a>
 </nav>
 
-<script src="/assets/js/site.js?v=19" defer></script>
-<script src="/assets/js/forms.js?v=4" defer></script>
+<script src="/assets/js/site.js?v=20" defer></script>
+<script src="/assets/js/forms.js?v=5" defer></script>
 </body>
 </html>

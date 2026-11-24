@@ -33,6 +33,7 @@ BOTTOM = src[src.index("</main>") + len("</main>"):src.index("</body>")]
 FINAL = between("<!-- CTA FINAL -->", "</main>")
 CSS_V = re.search(r"site\.css\?v=(\d+)", src).group(1)
 ORG_ID = SITE + "/#empresa"
+TAGS = between("<!-- TAGS", "<!-- /TAGS -->") + "<!-- /TAGS -->\n"
 
 e = lambda s: html.escape(str(s), quote=True)
 
@@ -75,7 +76,7 @@ def head(p, schema):
 <script type="application/ld+json">
 {json.dumps(schema, ensure_ascii=False, indent=1)}
 </script>
-</head>
+{TAGS}</head>
 <body>"""
 
 
