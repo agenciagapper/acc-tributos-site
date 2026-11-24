@@ -329,8 +329,9 @@ p{margin:0}
 .stage__person{position:absolute;z-index:2;bottom:0;width:64%;height:auto;
   -webkit-mask:linear-gradient(to bottom,#000 82%,transparent 100%);mask:linear-gradient(to bottom,#000 82%,transparent 100%);
   filter:drop-shadow(0 20px 30px rgba(8,13,43,.35))}
+/* mesma escala para os dois; a foto do Joel é mais alta, então desce para alinhar as cabeças */
 .stage__person--a{left:-14%;bottom:0;width:80%}
-.stage__person--j{right:-14%;z-index:3;width:82%}
+.stage__person--j{right:-8.4%;bottom:-6.3%;width:80%}
 .stage .stage__panel{top:30%}
 .nametag{position:absolute;z-index:4;bottom:5%;display:grid;gap:2px;padding:.55rem .85rem;border-radius:var(--r-1);background:rgba(255,253,248,.94);box-shadow:var(--shadow);font-size:var(--t-sm);line-height:1.2;backdrop-filter:blur(6px)}
 .nametag b{font-weight:700}
@@ -576,8 +577,8 @@ p{margin:0}
   .badge{top:56%;left:0;width:8.5rem}
   .team .people{grid-template-columns:1fr}
   .team__photo--sub{right:0;width:62%}
-  .stage__person--a{left:-4%;width:74%}
-  .stage__person--j{right:-4%;width:78%}
+  .stage__person--a{left:-6%;width:76%}
+  .stage__person--j{right:-1%;bottom:-6%;width:76%}
   .marquee__label{display:none}
   .final__hex{width:200px;right:-50px;top:-50px}
   .hero__kicker{font-size:var(--t-xs)}
@@ -745,7 +746,7 @@ body{font-size:1.0625rem}
 .phero .hero__ctas{margin-top:var(--s-4)}
 .phero__card{background:var(--card);border:1px solid var(--line);border-radius:var(--r-3);overflow:hidden;box-shadow:var(--shadow)}
 .phero__photo{background:radial-gradient(120% 70% at 50% 15%,#6E80FF 0%,#2236EA 50%,#1326E8 90%);aspect-ratio:1/0.82;display:flex;align-items:flex-end;justify-content:center;overflow:hidden}
-.phero__photo img{width:96%;height:auto;display:block;margin-bottom:-4%}
+.phero__photo img{height:92%;width:auto;max-width:100%;object-fit:contain;object-position:50% 100%;display:block}
 .phero__people{display:grid;grid-template-columns:1fr 1fr;border-bottom:1px solid var(--line)}
 .phero__people span{padding:.8rem 1rem;font-size:var(--t-xs);color:var(--brand);font-weight:600}
 .phero__people span + span{border-left:1px solid var(--line)}
@@ -1086,7 +1087,7 @@ a.qs-emp:hover{border-color:var(--brand);transform:translateY(-3px)}
   .prose__block + .prose__block{margin-top:var(--s-4)}
   .phero__card{max-width:none}
   .phero__photo{aspect-ratio:16/10}
-  .phero__photo img{width:70%}
+  .phero__photo img{height:92%;width:auto}
 }
 
 @media (max-width:560px){
